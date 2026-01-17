@@ -74,7 +74,15 @@ You can install skills in **two scopes**:
 
 You can easily install skills directly from the repository without cloning it manually.
 
-**1. Install a specific skill to your current project:**
+**1. List available skills:**
+
+Check which skills are available in the vault before installing:
+
+```bash
+npx github:rmyndharis/antigravity-skill-vault list
+```
+
+**2. Install a specific skill to your current project:**
 
 ```bash
 npx github:rmyndharis/antigravity-skill-vault install <skill-name>
@@ -82,7 +90,7 @@ npx github:rmyndharis/antigravity-skill-vault install <skill-name>
 npx github:rmyndharis/antigravity-skill-vault install bash-pro
 ```
 
-**2. Install a skill globally:**
+**3. Install a skill globally:**
 
 ```bash
 npx github:rmyndharis/antigravity-skill-vault install <skill-name> --global
@@ -90,7 +98,7 @@ npx github:rmyndharis/antigravity-skill-vault install <skill-name> --global
 npx github:rmyndharis/antigravity-skill-vault install bash-pro --global
 ```
 
-**3. Install ALL skills:**
+**4. Install ALL skills:**
 
 ```bash
 # To your current workspace
@@ -98,12 +106,6 @@ npx github:rmyndharis/antigravity-skill-vault install --all
 
 # Globally
 npx github:rmyndharis/antigravity-skill-vault install --all --global
-```
-
-**4. List available skills:**
-
-```bash
-npx github:rmyndharis/antigravity-skill-vault list
 ```
 
 ### Manual Installation
