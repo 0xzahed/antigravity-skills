@@ -1,5 +1,6 @@
 ---
 name: tdd-workflows-tdd-refactor
+description: "Use when working with tdd workflows tdd refactor"
 ---
 
 Refactor code with confidence using comprehensive test safety net:

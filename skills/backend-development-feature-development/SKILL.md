@@ -1,5 +1,6 @@
 ---
 name: backend-development-feature-development
+description: "Use when working with backend development feature development"
 ---
 
 Orchestrate end-to-end feature development from requirements to production deployment:

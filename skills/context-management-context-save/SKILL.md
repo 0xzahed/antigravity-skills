@@ -1,5 +1,6 @@
 ---
 name: context-management-context-save
+description: "Use when working with context management context save"
 ---
 
 # Context Save Tool: Intelligent Context Management Specialist

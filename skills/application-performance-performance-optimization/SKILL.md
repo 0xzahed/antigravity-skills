@@ -1,5 +1,6 @@
 ---
 name: application-performance-performance-optimization
+description: "Use when working with application performance performance optimization"
 ---
 
 Optimize application performance end-to-end using specialized performance and optimization agents:

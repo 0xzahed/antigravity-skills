@@ -1,5 +1,6 @@
 ---
 name: performance-testing-review-multi-agent-review
+description: "Use when working with performance testing review multi agent review"
 ---
 
 # Multi-Agent Code Review Orchestration Tool

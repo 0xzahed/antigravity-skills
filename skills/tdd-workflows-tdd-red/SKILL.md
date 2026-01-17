@@ -1,5 +1,6 @@
 ---
 name: tdd-workflows-tdd-red
+description: "Use when working with tdd workflows tdd red"
 ---
 
 Write comprehensive failing tests following TDD red phase principles.

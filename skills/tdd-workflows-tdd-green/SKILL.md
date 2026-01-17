@@ -1,5 +1,6 @@
 ---
 name: tdd-workflows-tdd-green
+description: "Use when working with tdd workflows tdd green"
 ---
 
 Implement minimal code to make failing tests pass in TDD green phase:

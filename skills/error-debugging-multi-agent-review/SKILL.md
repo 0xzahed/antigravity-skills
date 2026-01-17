@@ -1,5 +1,6 @@
 ---
 name: error-debugging-multi-agent-review
+description: "Use when working with error debugging multi agent review"
 ---
 
 # Multi-Agent Code Review Orchestration Tool

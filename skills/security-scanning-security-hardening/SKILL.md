@@ -1,5 +1,6 @@
 ---
 name: security-scanning-security-hardening
+description: "Use when working with security scanning security hardening"
 ---
 
 Implement comprehensive security hardening with defense-in-depth strategy through coordinated multi-agent orchestration:

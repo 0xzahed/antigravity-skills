@@ -1,5 +1,6 @@
 ---
 name: agent-orchestration-multi-agent-optimize
+description: "Use when working with agent orchestration multi agent optimize"
 ---
 
 # Multi-Agent Optimization Toolkit

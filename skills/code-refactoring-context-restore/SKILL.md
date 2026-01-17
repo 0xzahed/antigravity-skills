@@ -1,5 +1,6 @@
 ---
 name: code-refactoring-context-restore
+description: "Use when working with code refactoring context restore"
 ---
 
 # Context Restoration: Advanced Semantic Memory Rehydration

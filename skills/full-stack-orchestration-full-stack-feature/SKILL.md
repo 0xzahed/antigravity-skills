@@ -1,5 +1,6 @@
 ---
 name: full-stack-orchestration-full-stack-feature
+description: "Use when working with full stack orchestration full stack feature"
 ---
 
 Orchestrate full-stack feature development across backend, frontend, and infrastructure layers with modern API-first approach:

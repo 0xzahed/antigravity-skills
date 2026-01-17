@@ -1,5 +1,6 @@
 ---
 name: api-testing-observability-api-mock
+description: "You are an API mocking expert specializing in creating realistic mock services for development, testing, and demonstration purposes. Design comprehensive mocking solutions that simulate real API behav"
 ---
 
 # API Mocking Framework

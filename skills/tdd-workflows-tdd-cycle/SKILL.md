@@ -1,5 +1,6 @@
 ---
 name: tdd-workflows-tdd-cycle
+description: "Use when working with tdd workflows tdd cycle"
 ---
 
 Execute a comprehensive Test-Driven Development (TDD) workflow with strict red-green-refactor discipline:
