@@ -26,6 +26,7 @@ Production patterns for Godot 4.x game development with GDScript, covering archi
 - Clarify goals, constraints, and required inputs.
 - Apply relevant best practices and validate outcomes.
 - Provide actionable steps and verification.
+- Follow strict GDScript example style: avoid inferred assignment and declare variables, constants, parameters, and return types explicitly.
 - If detailed examples are required, open `resources/implementation-playbook.md`.
 
 ## Resources

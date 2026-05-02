@@ -6,6 +6,10 @@ This file contains detailed patterns, checklists, and code samples referenced by
 
 Production patterns for Godot 4.x game development with GDScript, covering architecture, signals, scenes, and optimization.
 
+## Example Style
+
+These examples intentionally avoid inferred assignment and use explicit type declarations. This keeps snippets readable without relying on local type inference.
+
 ## When to Use This Skill
 
 - Building games with Godot 4
@@ -58,12 +62,12 @@ func _ready() -> void:
     _health = max_health
 
 func _physics_process(delta: float) -> void:
-    var direction := Input.get_vector("left", "right", "up", "down")
+    var direction: Vector2 = Input.get_vector("left", "right", "up", "down")
     velocity = direction * speed
     move_and_slide()
 
 func take_damage(amount: int) -> void:
-    var actual_damage := int(amount * (1.0 - damage_reduction))
+    var actual_damage: int = int(amount * (1.0 - damage_reduction))
     _health = max(_health - actual_damage, 0)
     health_changed.emit(_health)
 
@@ -118,7 +122,7 @@ func transition_to(state_name: StringName, msg: Dictionary = {}) -> void:
         push_error("State '%s' not found" % state_name)
         return
 
-    var previous_state := current_state
+    var previous_state: State = current_state
     previous_state.exit()
     previous_state.process_mode = Node.PROCESS_MODE_DISABLED
 
@@ -163,7 +167,7 @@ func enter(_msg: Dictionary = {}) -> void:
     player.animation.play("idle")
 
 func physics_update(_delta: float) -> void:
-    var direction := Input.get_vector("left", "right", "up", "down")
+    var direction: Vector2 = Input.get_vector("left", "right", "up", "down")
 
     if direction != Vector2.ZERO:
         state_machine.transition_to("Move")
@@ -210,7 +214,7 @@ func start_game() -> void:
     game_started.emit()
 
 func toggle_pause() -> void:
-    var is_paused := state != GameState.PAUSED
+    var is_paused: bool = state != GameState.PAUSED
 
     if is_paused:
         state = GameState.PAUSED
@@ -235,11 +239,11 @@ func add_score(points: int) -> void:
 
 func _load_high_score() -> void:
     if FileAccess.file_exists("user://high_score.save"):
-        var file := FileAccess.open("user://high_score.save", FileAccess.READ)
+        var file: FileAccess = FileAccess.open("user://high_score.save", FileAccess.READ)
         high_score = file.get_32()
 
 func _save_high_score() -> void:
-    var file := FileAccess.open("user://high_score.save", FileAccess.WRITE)
+    var file: FileAccess = FileAccess.open("user://high_score.save", FileAccess.WRITE)
     file.store_32(high_score)
 ```
 
@@ -305,7 +309,7 @@ func get_current_health() -> float:
     return _current_health
 
 func take_damage(amount: float) -> float:
-    var actual_damage := maxf(amount - defense, 1.0)
+    var actual_damage: float = maxf(amount - defense, 1.0)
     _current_health = maxf(_current_health - actual_damage, 0.0)
     stat_changed.emit("health", _current_health)
     return actual_damage
@@ -315,7 +319,7 @@ func heal(amount: float) -> void:
     stat_changed.emit("health", _current_health)
 
 func duplicate_for_runtime() -> CharacterStats:
-    var copy := duplicate() as CharacterStats
+    var copy: CharacterStats = duplicate() as CharacterStats
     copy._current_health = copy.max_health
     return copy
 ```
@@ -366,7 +370,7 @@ func _initialize_pool() -> void:
         _create_instance()
 
 func _create_instance() -> Node:
-    var instance := pooled_scene.instantiate()
+    var instance: Node = pooled_scene.instantiate()
     instance.process_mode = Node.PROCESS_MODE_DISABLED
     instance.visible = false
     add_child(instance)
@@ -472,7 +476,7 @@ signal died
 
 var current_health: int:
     set(value):
-        var old := current_health
+        var old: int = current_health
         current_health = clampi(value, 0, max_health)
         if current_health != old:
             health_changed.emit(current_health, max_health)
@@ -486,7 +490,7 @@ func take_damage(amount: int, source: Node = null) -> int:
     if _invincible or current_health <= 0:
         return 0
 
-    var actual := mini(amount, current_health)
+    var actual: int = mini(amount, current_health)
     current_health -= actual
     damaged.emit(actual, source)
 
@@ -498,7 +502,7 @@ func take_damage(amount: int, source: Node = null) -> int:
     return actual
 
 func heal(amount: int) -> int:
-    var actual := mini(amount, max_health - current_health)
+    var actual: int = mini(amount, max_health - current_health)
     current_health += actual
     if actual > 0:
         healed.emit(actual)
@@ -528,7 +532,7 @@ func _ready() -> void:
 
 func _on_area_entered(area: Area2D) -> void:
     if area is HurtboxComponent:
-        var hurtbox := area as HurtboxComponent
+        var hurtbox: HurtboxComponent = area as HurtboxComponent
         if hurtbox.owner_node != owner_node:
             hit.emit(hurtbox)
             hurtbox.receive_hit(self)
@@ -599,7 +603,7 @@ func _load_scene(path: String) -> void:
 
     # Check if already loaded
     if ResourceLoader.has_cached(path):
-        var scene := load(path) as PackedScene
+        var scene: PackedScene = load(path) as PackedScene
         _swap_scene(scene.instantiate())
         return
 
@@ -607,15 +611,15 @@ func _load_scene(path: String) -> void:
     ResourceLoader.load_threaded_request(path)
 
     while true:
-        var progress := []
-        var status := ResourceLoader.load_threaded_get_status(path, progress)
+        var progress: Array[float] = []
+        var status: int = ResourceLoader.load_threaded_get_status(path, progress)
 
         match status:
             ResourceLoader.THREAD_LOAD_IN_PROGRESS:
                 scene_loading_progress.emit(progress[0])
                 await get_tree().process_frame
             ResourceLoader.THREAD_LOAD_LOADED:
-                var scene := ResourceLoader.load_threaded_get(path) as PackedScene
+                var scene: PackedScene = ResourceLoader.load_threaded_get(path) as PackedScene
                 _swap_scene(scene.instantiate())
                 return
             _:
@@ -665,15 +669,15 @@ func _play_transition_in() -> void:
 # save_manager.gd (Autoload)
 extends Node
 
-const SAVE_PATH := "user://savegame.save"
-const ENCRYPTION_KEY := "your_secret_key_here"
+const SAVE_PATH: String = "user://savegame.save"
+const ENCRYPTION_KEY: String = "your_secret_key_here"
 
 signal save_completed
 signal load_completed
 signal save_error(message: String)
 
 func save_game(data: Dictionary) -> void:
-    var file := FileAccess.open_encrypted_with_pass(
+    var file: FileAccess = FileAccess.open_encrypted_with_pass(
         SAVE_PATH,
         FileAccess.WRITE,
         ENCRYPTION_KEY
@@ -683,7 +687,7 @@ func save_game(data: Dictionary) -> void:
         save_error.emit("Could not open save file")
         return
 
-    var json := JSON.stringify(data)
+    var json: String = JSON.stringify(data)
     file.store_string(json)
     file.close()
 
@@ -693,7 +697,7 @@ func load_game() -> Dictionary:
     if not FileAccess.file_exists(SAVE_PATH):
         return {}
 
-    var file := FileAccess.open_encrypted_with_pass(
+    var file: FileAccess = FileAccess.open_encrypted_with_pass(
         SAVE_PATH,
         FileAccess.READ,
         ENCRYPTION_KEY
@@ -703,16 +707,16 @@ func load_game() -> Dictionary:
         save_error.emit("Could not open save file")
         return {}
 
-    var json := file.get_as_text()
+    var json: String = file.get_as_text()
     file.close()
 
-    var parsed := JSON.parse_string(json)
-    if parsed == null:
+    var parsed: Variant = JSON.parse_string(json)
+    if not parsed is Dictionary:
         save_error.emit("Could not parse save data")
         return {}
 
     load_completed.emit()
-    return parsed
+    return parsed as Dictionary
 
 func delete_save() -> void:
     if FileAccess.file_exists(SAVE_PATH):
@@ -734,8 +738,8 @@ func _ready() -> void:
         save_id = str(get_path())
 
 func get_save_data() -> Dictionary:
-    var parent := get_parent()
-    var data := {"id": save_id}
+    var parent: Node = get_parent()
+    var data: Dictionary = {"id": save_id}
 
     if parent is Node2D:
         data["position"] = {"x": parent.position.x, "y": parent.position.y}
@@ -746,7 +750,7 @@ func get_save_data() -> Dictionary:
     return data
 
 func load_save_data(data: Dictionary) -> void:
-    var parent := get_parent()
+    var parent: Node = get_parent()
 
     if data.has("position") and parent is Node2D:
         parent.position = Vector2(data.position.x, data.position.y)
@@ -759,7 +763,7 @@ func load_save_data(data: Dictionary) -> void:
 
 ```gdscript
 # 1. Cache node references
-@onready var sprite := $Sprite2D  # Good
+@onready var sprite: Sprite2D = $Sprite2D  # Good
 # $Sprite2D in _process()  # Bad - repeated lookup
 
 # 2. Use object pooling for frequent spawning
