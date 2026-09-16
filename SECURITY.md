@@ -14,4 +14,4 @@ This repository ships skills that may recommend terminal commands or infrastruct
 
 For routine, non-sensitive issues, open a GitHub issue with details and reproduction steps.
 
-For sensitive vulnerabilities (anything that could be exploited before a fix ships), report privately by email to **yudhi@rmyndharis.com** instead of opening a public issue. Include reproduction steps and impact. Please allow a reasonable window for a fix before any public disclosure.
+For sensitive vulnerabilities (anything that could be exploited before a fix ships), report privately via GitHub's private vulnerability reporting on this repository (Security > Report a vulnerability) instead of opening a public issue. Include reproduction steps and impact. Please allow a reasonable window for a fix before any public disclosure.

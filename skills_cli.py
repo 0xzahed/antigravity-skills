@@ -11,9 +11,9 @@ if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
     sys.stderr.reconfigure(encoding='utf-8')
 
-CATALOG_URL = "https://raw.githubusercontent.com/rmyndharis/antigravity-skills/main/catalog.json"
-RAW_BASE_URL = "https://raw.githubusercontent.com/rmyndharis/antigravity-skills/main/"
-API_BASE_URL = "https://api.github.com/repos/rmyndharis/antigravity-skills/contents/"
+CATALOG_URL = "https://raw.githubusercontent.com/0xzahed/antigravity-skills/main/catalog.json"
+RAW_BASE_URL = "https://raw.githubusercontent.com/0xzahed/antigravity-skills/main/"
+API_BASE_URL = "https://api.github.com/repos/0xzahed/antigravity-skills/contents/"
 
 GLOBAL_SKILLS_DIR = os.path.join(os.path.expanduser("~"), ".gemini", "antigravity", "skills")
 

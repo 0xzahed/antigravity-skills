@@ -1,6 +1,6 @@
 # Skill Catalog
 
-Generated at: 2026-09-16T18:17:18.942Z
+Generated at: 2026-09-16T19:17:10.865Z
 
 Total skills: 475
 
@@ -280,7 +280,7 @@ Total skills: 475
 | `accessibility-compliance-accessibility-audit` | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers,... | accessibility, compliance, audit | accessibility, compliance, audit, specializing, wcag, inclusive, assistive, technology, compatibility, conduct, audits, identify |
 | `angular-development` | Build Angular applications. Use when developing, reviewing, or migrating Angular projects. | angular, development | angular, development, applications, developing, reviewing, migrating |
 | `anti-reversing-techniques` | Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti... | anti, reversing, techniques | anti, reversing, techniques, understand, obfuscation, protection, encountered, during, software, analysis, analyzing, protected |
-| `antigravity-skills-manager` | Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the rmyndharis/antigravity-skills catalog using pur... | antigravity, skills, manager | antigravity, skills, manager, global, google, explore, search, install, 300, agent, rmyndharis, catalog |
+| `antigravity-skills-manager` | Global skills manager for Google Antigravity. Explore, search, install, and manage 475+ agent skills from the 0xzahed/antigravity-skills catalog using pure s... | antigravity, skills, manager | antigravity, skills, manager, global, google, explore, search, install, 475, agent, 0xzahed, catalog |
 | `article-illustrations` | Generate hand-drawn 16:9 article illustrations featuring the Grav character IP. Turns article concepts into memorable whiteboard-sketch explanations with a r... | article, illustrations | article, illustrations, generate, hand, drawn, 16, featuring, grav, character, ip, turns, concepts |
 | `background-jobs` | Design and implement background jobs. Use when deferring work out of the request path. | background, jobs | background, jobs, deferring, work, request, path |
 | `backtesting-frameworks` | Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developin... | backtesting, frameworks | backtesting, frameworks, robust, trading, proper, handling, look, ahead, bias, survivorship, transaction, costs |

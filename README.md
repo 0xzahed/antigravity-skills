@@ -1,8 +1,8 @@
 # Antigravity Skill Vault
 
-A curated collection of **Agent Skills** for **Google Antigravity**, ported from the [Claude Code Agents](https://github.com/wshobson/agents) repository.
+A curated collection of **Agent Skills** for **Google Antigravity**.
 
-This vault transforms the extensive Claude Code ecosystem into **Antigravity Skills**, providing your agent with repeatable workflows, domain expertise, and specialized tools.
+This vault provides your agent with repeatable workflows, domain expertise, and specialized tools.
 
 It also includes a comprehensive **professional software engineering skills system** covering the full SDLC: requirements, architecture, frontend, backend, API, database, auth, security, testing, review/debug, performance, DevOps/CI-CD, observability, Git, docs, mobile, realtime, payments, search, AI/ML, and product engineering.
 
@@ -10,11 +10,11 @@ It also includes a comprehensive **professional software engineering skills syst
 
 ## 🚀 Overview
 
-This repository contains **300+ specialized skills** across software development, operations, security, and business domains. Each skill is a directory-based package that teaches Antigravity's agent how to perform specific tasks.
+This repository contains **475 specialized skills** across software development, operations, security, and business domains. Each skill is a directory-based package that teaches Antigravity's agent how to perform specific tasks.
 
 ### What's Included?
 
-The skills are derived from three types of Claude Code components, all unified into the Antigravity Skill format:
+The skills fall into three types, all unified into the Antigravity Skill format:
 
 1.  **Domain Skills** (e.g., `k8s-manifest-generator`, `async-python-patterns`): Specialized knowledge packages.
 2.  **Specialist Agents** (e.g., `backend-architect`, `security-auditor`): Persona-based instruction sets for complex reasoning.
@@ -100,7 +100,7 @@ You can install skills in **two scopes**:
 You can install this repository directly as a native Antigravity plugin:
 
 ```bash
-agy plugin install https://github.com/rmyndharis/antigravity-skills
+agy plugin install https://github.com/0xzahed/antigravity-skills
 ```
 
 This registers the `antigravity-skills-manager` plugin and enables `/skills-manager` (or `/skills`) slash commands inside Antigravity:
@@ -135,33 +135,33 @@ You can easily install skills directly from the repository without cloning it ma
 **1. Search skills (recommended first):**
 
 ```bash
-npx @rmyndharis/antigravity-skills search <query>
+npx @0xzahed/antigravity-skills search <query>
 # Example:
-npx @rmyndharis/antigravity-skills search kubernetes
+npx @0xzahed/antigravity-skills search kubernetes
 ```
 
 **2. List available skills:**
 
 ```bash
-npx @rmyndharis/antigravity-skills list
+npx @0xzahed/antigravity-skills list
 ```
 
 **3. Install a specific skill to your current project:**
 
 ```bash
-npx @rmyndharis/antigravity-skills install <skill-name>
+npx @0xzahed/antigravity-skills install <skill-name>
 # Example:
-npx @rmyndharis/antigravity-skills install bash-pro
+npx @0xzahed/antigravity-skills install bash-pro
 ```
 
 **4. Install by tag or bundle (targeted sets):**
 
 ```bash
 # By tag
-npx @rmyndharis/antigravity-skills install --tag kubernetes
+npx @0xzahed/antigravity-skills install --tag kubernetes
 
 # By bundle
-npx @rmyndharis/antigravity-skills install --bundle core-dev
+npx @0xzahed/antigravity-skills install --bundle core-dev
 ```
 
 Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-core`, `full-stack-engineer`, `security-engineer`, `nextjs-engineer`, `django-engineer`, `devops-engineer`.
@@ -169,49 +169,49 @@ Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-co
 **5. Install a skill globally:**
 
 ```bash
-npx @rmyndharis/antigravity-skills install <skill-name> --global
+npx @0xzahed/antigravity-skills install <skill-name> --global
 # Example:
-npx @rmyndharis/antigravity-skills install bash-pro --global
+npx @0xzahed/antigravity-skills install bash-pro --global
 ```
 
 **6. Check installed skills:**
 
 ```bash
 # List local specific skills
-npx @rmyndharis/antigravity-skills installed
+npx @0xzahed/antigravity-skills installed
 
 # List globally installed skills
-npx @rmyndharis/antigravity-skills installed --global
+npx @0xzahed/antigravity-skills installed --global
 ```
 
 **7. Update installed skills:**
 
 ```bash
 # Update a specific skill
-npx @rmyndharis/antigravity-skills update <skill-name>
+npx @0xzahed/antigravity-skills update <skill-name>
 
 # Update ALL installed skills
-npx @rmyndharis/antigravity-skills update
+npx @0xzahed/antigravity-skills update
 
 # Update global skills
-npx @rmyndharis/antigravity-skills update --global
+npx @0xzahed/antigravity-skills update --global
 ```
 
 **8. Doctor / stats:**
 
 ```bash
-npx @rmyndharis/antigravity-skills doctor
-npx @rmyndharis/antigravity-skills stats
+npx @0xzahed/antigravity-skills doctor
+npx @0xzahed/antigravity-skills stats
 ```
 
 **9. Install ALL skills (advanced, not recommended):**
 
 ```bash
 # To your current workspace
-npx @rmyndharis/antigravity-skills install --all
+npx @0xzahed/antigravity-skills install --all
 
 # Globally
-npx @rmyndharis/antigravity-skills install --all --global
+npx @0xzahed/antigravity-skills install --all --global
 ```
 
 > **Note:** Installing all skills increases token usage and can trigger unrelated skills. Prefer targeted installs.
@@ -221,7 +221,7 @@ Aliases are supported via `aliases.json` (for long skill names).
 Example:
 
 ```bash
-npx @rmyndharis/antigravity-skills install full-stack-feature
+npx @0xzahed/antigravity-skills install full-stack-feature
 ```
 
 ### Manual Installation
@@ -271,9 +271,9 @@ Auditor skills operate in **read-only audit mode by default**: they do not modif
 ### Recommended bundles for new projects
 
 ```bash
-npx @rmyndharis/antigravity-skills install --bundle full-stack-engineer
-npx @rmyndharis/antigravity-skills install --bundle security-engineer
-npx @rmyndharis/antigravity-skills install --bundle nextjs-engineer
+npx @0xzahed/antigravity-skills install --bundle full-stack-engineer
+npx @0xzahed/antigravity-skills install --bundle security-engineer
+npx @0xzahed/antigravity-skills install --bundle nextjs-engineer
 ```
 
 ---
@@ -326,5 +326,4 @@ See [SECURITY.md](SECURITY.md) for safety expectations when writing skills that 
 
 MIT License. See [LICENSE](LICENSE) file for details.
 
-Original content © [Claude Code Agents](https://github.com/wshobson/agents).
-Ported to Antigravity Skills.
+© 0xzahed.
