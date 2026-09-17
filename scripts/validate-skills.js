@@ -213,18 +213,26 @@ for (const skillId of skillIds) {
     missingInstructionsSection.push(skillId);
   }
 
-  // Referenced helper files (backticked relative paths under known dirs) must exist.
+  // Referenced helper files (backticked relative paths or markdown links under known dirs) must exist.
   // Strip fenced code blocks first so illustrative paths inside examples are not flagged.
   const prose = content
     .replace(/```[\s\S]*?```/g, '')
     .replace(/~~~[\s\S]*?~~~/g, '');
-  const refRegex = /`((?:resources|references|assets|scripts|examples)\/[A-Za-z0-9._/-]+)`/g;
+  const refRegex = /(?:`((?:resources|references|assets|scripts|examples)\/[A-Za-z0-9._/-]+)`|\[[^\]]+\]\(((?:resources|references|assets|scripts|examples)\/[^)#\s]+)\))/g;
   const missingRefs = [];
   let refMatch;
   while ((refMatch = refRegex.exec(prose)) !== null) {
-    const rel = refMatch[1];
+    const rel = refMatch[1] || refMatch[2];
     if (!fs.existsSync(path.join(SKILLS_DIR, skillId, rel))) {
       missingRefs.push(rel);
+    }
+  }
+  const skillLinkRegex = /\[[^\]]+\]\((\.\.\/([A-Za-z0-9-]+)\/SKILL\.md)\)/g;
+  let slMatch;
+  while ((slMatch = skillLinkRegex.exec(prose)) !== null) {
+    const targetSkill = slMatch[2];
+    if (!fs.existsSync(path.join(SKILLS_DIR, targetSkill, 'SKILL.md'))) {
+      missingRefs.push(slMatch[1]);
     }
   }
   if (missingRefs.length) {

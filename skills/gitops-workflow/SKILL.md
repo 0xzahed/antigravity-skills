@@ -135,7 +135,12 @@ spec:
 
 ```bash
 # Install Flux CLI
-curl -s https://fluxcd.io/install.sh | sudo bash
+# Download installer script
+curl -sSLo install_flux.sh https://fluxcd.io/install.sh
+# Inspect script contents before executing
+# less install_flux.sh
+sudo bash install_flux.sh
+rm install_flux.sh
 
 # Bootstrap Flux
 flux bootstrap github \

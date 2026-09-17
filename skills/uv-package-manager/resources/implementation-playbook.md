@@ -50,11 +50,15 @@ Comprehensive guide to using uv, an extremely fast Python package installer and 
 ### Quick Install
 
 ```bash
-# macOS/Linux
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# macOS/Linux (download, inspect, and execute standalone installer)
+curl -LsSf https://astral.sh/uv/install.sh -o install_uv.sh
+sh install_uv.sh
+rm install_uv.sh
 
-# Windows (PowerShell)
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+# Windows (PowerShell - download and execute installer)
+Invoke-WebRequest -Uri https://astral.sh/uv/install.ps1 -OutFile install_uv.ps1
+powershell -ExecutionPolicy ByPass -File ./install_uv.ps1
+Remove-Item ./install_uv.ps1
 
 # Using pip (if you already have Python)
 pip install uv

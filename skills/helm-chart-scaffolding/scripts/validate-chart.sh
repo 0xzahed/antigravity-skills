@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -euo pipefail
 
 CHART_DIR="${1:-.}"
 RELEASE_NAME="test-release"
@@ -69,9 +69,9 @@ echo ""
 
 # 3. Check Chart.yaml
 echo "3️⃣  Validating Chart.yaml..."
-CHART_NAME=$(grep "^name:" "$CHART_DIR/Chart.yaml" | awk '{print $2}')
-CHART_VERSION=$(grep "^version:" "$CHART_DIR/Chart.yaml" | awk '{print $2}')
-APP_VERSION=$(grep "^appVersion:" "$CHART_DIR/Chart.yaml" | awk '{print $2}' | tr -d '"')
+CHART_NAME=$(awk '/^name:/ {print $2}' "$CHART_DIR/Chart.yaml")
+CHART_VERSION=$(awk '/^version:/ {print $2}' "$CHART_DIR/Chart.yaml")
+APP_VERSION=$(awk '/^appVersion:/ {gsub(/"/, "", $2); print $2}' "$CHART_DIR/Chart.yaml")
 
 if [ -z "$CHART_NAME" ]; then
     error "Chart name not found"
