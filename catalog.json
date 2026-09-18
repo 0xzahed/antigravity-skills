@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T00:22:52.027Z",
+  "generatedAt": "2026-09-18T19:00:29.748Z",
   "total": 307,
   "skills": [
     {
@@ -182,7 +182,7 @@
     {
       "id": "antigravity-skills-manager",
       "name": "antigravity-skills-manager",
-      "description": "Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the rmyndharis/antigravity-skills catalog using pure stdlib CLI tools.",
+      "description": "Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the 0xzahed/antigravity-skills catalog using pure stdlib CLI tools.",
       "category": "general",
       "tags": [
         "antigravity",
@@ -200,7 +200,7 @@
         "install",
         "300",
         "agent",
-        "rmyndharis",
+        "0xzahed",
         "catalog"
       ],
       "path": "skills/antigravity-skills-manager/SKILL.md"

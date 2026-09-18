@@ -98,7 +98,7 @@ You can install skills in **two scopes**:
 You can install this repository directly as a native Antigravity plugin:
 
 ```bash
-agy plugin install https://github.com/rmyndharis/antigravity-skills
+agy plugin install https://github.com/0xzahed/antigravity-skills
 ```
 
 This registers the `antigravity-skills-manager` plugin and enables `/skills-manager` (or `/skills`) slash commands inside Antigravity:
@@ -133,33 +133,33 @@ You can easily install skills directly from the repository without cloning it ma
 **1. Search skills (recommended first):**
 
 ```bash
-npx @rmyndharis/antigravity-skills search <query>
+npx @0xzahed/antigravity-skills search <query>
 # Example:
-npx @rmyndharis/antigravity-skills search kubernetes
+npx @0xzahed/antigravity-skills search kubernetes
 ```
 
 **2. List available skills:**
 
 ```bash
-npx @rmyndharis/antigravity-skills list
+npx @0xzahed/antigravity-skills list
 ```
 
 **3. Install a specific skill to your current project:**
 
 ```bash
-npx @rmyndharis/antigravity-skills install <skill-name>
+npx @0xzahed/antigravity-skills install <skill-name>
 # Example:
-npx @rmyndharis/antigravity-skills install bash-pro
+npx @0xzahed/antigravity-skills install bash-pro
 ```
 
 **4. Install by tag or bundle (targeted sets):**
 
 ```bash
 # By tag
-npx @rmyndharis/antigravity-skills install --tag kubernetes
+npx @0xzahed/antigravity-skills install --tag kubernetes
 
 # By bundle
-npx @rmyndharis/antigravity-skills install --bundle core-dev
+npx @0xzahed/antigravity-skills install --bundle core-dev
 ```
 
 Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-core`.
@@ -167,49 +167,49 @@ Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-co
 **5. Install a skill globally:**
 
 ```bash
-npx @rmyndharis/antigravity-skills install <skill-name> --global
+npx @0xzahed/antigravity-skills install <skill-name> --global
 # Example:
-npx @rmyndharis/antigravity-skills install bash-pro --global
+npx @0xzahed/antigravity-skills install bash-pro --global
 ```
 
 **6. Check installed skills:**
 
 ```bash
 # List local specific skills
-npx @rmyndharis/antigravity-skills installed
+npx @0xzahed/antigravity-skills installed
 
 # List globally installed skills
-npx @rmyndharis/antigravity-skills installed --global
+npx @0xzahed/antigravity-skills installed --global
 ```
 
 **7. Update installed skills:**
 
 ```bash
 # Update a specific skill
-npx @rmyndharis/antigravity-skills update <skill-name>
+npx @0xzahed/antigravity-skills update <skill-name>
 
 # Update ALL installed skills
-npx @rmyndharis/antigravity-skills update
+npx @0xzahed/antigravity-skills update
 
 # Update global skills
-npx @rmyndharis/antigravity-skills update --global
+npx @0xzahed/antigravity-skills update --global
 ```
 
 **8. Doctor / stats:**
 
 ```bash
-npx @rmyndharis/antigravity-skills doctor
-npx @rmyndharis/antigravity-skills stats
+npx @0xzahed/antigravity-skills doctor
+npx @0xzahed/antigravity-skills stats
 ```
 
 **9. Install ALL skills (advanced, not recommended):**
 
 ```bash
 # To your current workspace
-npx @rmyndharis/antigravity-skills install --all
+npx @0xzahed/antigravity-skills install --all
 
 # Globally
-npx @rmyndharis/antigravity-skills install --all --global
+npx @0xzahed/antigravity-skills install --all --global
 ```
 
 > **Note:** Installing all skills increases token usage and can trigger unrelated skills. Prefer targeted installs.
@@ -219,7 +219,7 @@ Aliases are supported via `aliases.json` (for long skill names).
 Example:
 
 ```bash
-npx @rmyndharis/antigravity-skills install full-stack-feature
+npx @0xzahed/antigravity-skills install full-stack-feature
 ```
 
 ### Manual Installation
@@ -288,10 +288,11 @@ See [SECURITY.md](SECURITY.md) for safety expectations when writing skills that 
 
 ---
 
-## 📜 License
-
+## 📜 License & Attribution
+ 
 MIT License. See [LICENSE](LICENSE) file for details.
-
+ 
+### Upstream Attribution
 Original content © [Claude Code Agents](https://github.com/wshobson/agents).
 Ported to Antigravity Skills.
-# antigravity-skills
+Maintained by [0xzahed](https://github.com/0xzahed).

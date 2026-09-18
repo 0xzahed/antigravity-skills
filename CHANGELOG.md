@@ -52,7 +52,7 @@ All notable changes to this project are documented here. This project adheres to
 - `normalize-frontmatter` deduplicates metadata at token granularity (no duplicates for comma-containing values); `validate-skills` and `normalize-frontmatter` now share a single frontmatter field-set.
 - Removed dead code: the `parseInlineList`/`stripQuotes` exports and the unreachable `name !== id` alias branch.
 
-[Unreleased]: https://github.com/rmyndharis/antigravity-skills/compare/v1.3.0...HEAD
-[1.3.0]: https://github.com/rmyndharis/antigravity-skills/releases/tag/v1.3.0
-[1.2.0]: https://github.com/rmyndharis/antigravity-skills/releases/tag/v1.2.0
-[1.1.0]: https://github.com/rmyndharis/antigravity-skills/releases/tag/v1.1.0
+[Unreleased]: https://github.com/0xzahed/antigravity-skills/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/0xzahed/antigravity-skills/releases/tag/v1.3.0
+[1.2.0]: https://github.com/0xzahed/antigravity-skills/releases/tag/v1.2.0
+[1.1.0]: https://github.com/0xzahed/antigravity-skills/releases/tag/v1.1.0

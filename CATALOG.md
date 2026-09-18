@@ -1,6 +1,6 @@
 # Skill Catalog
 
-Generated at: 2026-08-02T00:22:52.027Z
+Generated at: 2026-09-18T19:00:29.748Z
 
 Total skills: 307
 
@@ -159,7 +159,7 @@ Total skills: 307
 | `accessibility-compliance-accessibility-audit` | You are an accessibility expert specializing in WCAG compliance, inclusive design, and assistive technology compatibility. Conduct audits, identify barriers,... | accessibility, compliance, audit | accessibility, compliance, audit, specializing, wcag, inclusive, assistive, technology, compatibility, conduct, audits, identify |
 | `angular-migration` | Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applicat... | angular, migration | angular, migration, migrate, angularjs, hybrid, mode, incremental, component, rewriting, dependency, injection, updates |
 | `anti-reversing-techniques` | Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti... | anti, reversing, techniques | anti, reversing, techniques, understand, obfuscation, protection, encountered, during, software, analysis, analyzing, protected |
-| `antigravity-skills-manager` | Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the rmyndharis/antigravity-skills catalog using pur... | antigravity, skills, manager | antigravity, skills, manager, global, google, explore, search, install, 300, agent, rmyndharis, catalog |
+| `antigravity-skills-manager` | Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the 0xzahed/antigravity-skills catalog using pure s... | antigravity, skills, manager | antigravity, skills, manager, global, google, explore, search, install, 300, agent, 0xzahed, catalog |
 | `arm-cortex-expert` | Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of ... | arm, cortex | arm, cortex, senior, embedded, software, engineer, specializing, firmware, driver, development, microcontrollers, teensy |
 | `article-illustrations` | Generate hand-drawn 16:9 article illustrations featuring the Grav character IP. Turns article concepts into memorable whiteboard-sketch explanations with a r... | article, illustrations | article, illustrations, generate, hand, drawn, 16, featuring, grav, character, ip, turns, concepts |
 | `backtesting-frameworks` | Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developin... | backtesting, frameworks | backtesting, frameworks, robust, trading, proper, handling, look, ahead, bias, survivorship, transaction, costs |

@@ -1,13 +1,13 @@
 ---
 name: antigravity-skills-manager
-description: Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the rmyndharis/antigravity-skills catalog using pure stdlib CLI tools.
+description: Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the 0xzahed/antigravity-skills catalog using pure stdlib CLI tools.
 metadata:
   model: inherit
 ---
 
-# 📦 Antigravity Skills Manager (`rmyndharis/antigravity-skills`)
+# 📦 Antigravity Skills Manager (`0xzahed/antigravity-skills`)
 
-The `antigravity-skills-manager` skill empowers Google Antigravity agents and users to discover, search, install, and manage over **300+ agent skills** from the open-source repository [`rmyndharis/antigravity-skills`](https://github.com/rmyndharis/antigravity-skills).
+The `antigravity-skills-manager` skill empowers Google Antigravity agents and users to discover, search, install, and manage over **300+ agent skills** from the open-source repository [`0xzahed/antigravity-skills`](https://github.com/0xzahed/antigravity-skills).
 
 ---
 
@@ -28,8 +28,8 @@ The `antigravity-skills-manager` skill empowers Google Antigravity agents and us
 ## Instructions
 
 - Prefer the `/skills-manager` (or `/skills`) slash commands. They work wherever the plugin is registered and need no path resolution.
-- **`skills_cli.py` does not sit next to this file.** Installing this skill copies only `SKILL.md` into the skills directory; the script lives at the root of the checkout or npm package it came from — `agy plugin install` clones the repo, so it is at the clone root, and the npm package puts it at `node_modules/@rmyndharis/antigravity-skills/skills_cli.py`. Locate it before invoking it, and run it from there; `python3 skills_cli.py <cmd>` from this skill's own directory will not find it.
-- If neither the repo nor the npm package is on disk, use `npx @rmyndharis/antigravity-skills` (the `ag-skills` CLI) instead — it covers the same four operations.
+- **`skills_cli.py` does not sit next to this file.** Installing this skill copies only `SKILL.md` into the skills directory; the script lives at the root of the checkout or npm package it came from — `agy plugin install` clones the repo, so it is at the clone root, and the npm package puts it at `node_modules/@0xzahed/antigravity-skills/skills_cli.py`. Locate it before invoking it, and run it from there; `python3 skills_cli.py <cmd>` from this skill's own directory will not find it.
+- If neither the repo nor the npm package is on disk, use `npx @0xzahed/antigravity-skills` (the `ag-skills` CLI) instead — it covers the same four operations.
 - Ensure skill installations save to `~/.gemini/antigravity/skills/<skill_id>/SKILL.md`, or to `AG_SKILLS_DIR` when that is set.
 - All underlying commands must use standard Python library features (`urllib.request`, `json`, `os`, `sys`) without third-party dependencies.
 
