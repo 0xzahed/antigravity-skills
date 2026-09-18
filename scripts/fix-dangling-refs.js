@@ -8,14 +8,15 @@ const { listSkillIds } = require('../lib/skill-utils');
 
 const ROOT = path.resolve(__dirname, '..');
 const SKILLS_DIR = path.join(ROOT, 'skills');
-const REF_RE = /`((?:resources|references|assets|scripts|examples)\/[A-Za-z0-9._/-]+)`/g;
+const REF_RE = /(?:`((?:resources|references|assets|scripts|examples)\/[A-Za-z0-9._/-]+)`|\[[^\]]+\]\(((?:resources|references|assets|scripts|examples)\/[^)#\s]+)\))/g;
 
 function lineReferencesMissingFile(line, skillDir) {
   REF_RE.lastIndex = 0;
   let match;
   let hasMissing = false;
   while ((match = REF_RE.exec(line)) !== null) {
-    if (!fs.existsSync(path.join(skillDir, match[1]))) {
+    const rel = match[1] || match[2];
+    if (!fs.existsSync(path.join(skillDir, rel))) {
       hasMissing = true;
     }
   }
@@ -26,7 +27,7 @@ function pruneEmptyResources(lines) {
   const out = [];
   for (let i = 0; i < lines.length; i += 1) {
     const line = lines[i];
-    const headingMatch = /^(#{2,3})\s+(?:\w+\s+)*(?:resources?|reference\s+files?|references?|examples?|example\s+files?)\s*$/i.exec(line.trim());
+    const headingMatch = /^(#{2,3})\s+(?:\w+\s+)*(?:resources?|reference\s+(?:documentation|files?)?|references?|examples?|example\s+files?|templates\s*&?\s*assets?)\s*$/i.exec(line.trim());
     if (headingMatch) {
       const level = headingMatch[1].length;
       let j = i + 1;

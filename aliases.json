@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:00:29.748Z",
+  "generatedAt": "2026-09-18T19:12:18.944Z",
   "aliases": {
     "accessibility-compliance-audit": "accessibility-compliance-accessibility-audit",
     "agent-orchestration-improve": "agent-orchestration-improve-agent",
@@ -38,9 +38,10 @@
     "framework-migration-modernize": "framework-migration-legacy-modernize",
     "frontend-mobile-scaffold": "frontend-mobile-development-component-scaffold",
     "frontend-mobile-scan": "frontend-mobile-security-xss-scan",
+    "full-stack-orchestrator": "full-stack-engineer-orchestrator",
     "full-stack-feature": "full-stack-orchestration-full-stack-feature",
+    "full-stack-engineer": "full-stack-security-engineer",
     "git-pr-workflow": "git-pr-workflows-git-workflow",
-    "incident-response": "incident-response-incident-response",
     "javascript-typescript-scaffold": "javascript-typescript-typescript-scaffold",
     "llm-application-assistant": "llm-application-dev-ai-assistant",
     "llm-application-agent": "llm-application-dev-langchain-agent",

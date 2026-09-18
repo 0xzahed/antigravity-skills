@@ -46,7 +46,7 @@ metadata:
 This container deploys the following components:
 
 - [Component Name]: [Description]
-  - Documentation: [c4-component-name.md](./c4-component-name.md)
+  - Documentation: `c4-component-name.md`
 
 ## Interfaces
 

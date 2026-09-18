@@ -83,6 +83,14 @@ const CATEGORY_RULES = [
     name: 'workflow',
     keywords: ['workflow', 'orchestration', 'conductor', 'automation', 'process', 'collaboration'],
   },
+  {
+    name: 'engineering',
+    keywords: [
+      'requirements', 'architecture', 'principle', 'principles', 'quality', 'refactor', 'refactoring',
+      'clean', 'hexagonal', 'domain', 'ddd', 'solid', 'code', 'review', 'debug', 'engineering',
+      'maintainability', 'best-practices',
+    ],
+  },
 ];
 
 const BUNDLE_RULES = {
@@ -116,6 +124,41 @@ const BUNDLE_RULES = {
     keywords: [
       'observability', 'monitoring', 'logging', 'tracing', 'prometheus', 'grafana', 'devops', 'gitops',
       'deployment', 'cicd', 'pipeline', 'slo', 'sre', 'incident',
+    ],
+  },
+  'full-stack-engineer': {
+    description: 'Full-Stack engineering: frontend, backend, API, data, testing, security, and delivery.',
+    keywords: [
+      'frontend', 'backend', 'api', 'rest', 'graphql', 'react', 'nextjs', 'vue', 'angular', 'database',
+      'typescript', 'javascript', 'testing', 'security', 'deployment', 'websocket', 'auth', 'validation',
+      'performance', 'component', 'routing', 'query',
+    ],
+  },
+  'security-engineer': {
+    description: 'Application security: identification, audit, and remediation across the stack.',
+    keywords: [
+      'security', 'owasp', 'auth', 'threat', 'vulnerability', 'secrets', 'sast', 'xss', 'injection',
+      'audit', 'auditing', 'penetration', 'csp', 'hardening',
+    ],
+  },
+  'nextjs-engineer': {
+    description: 'Next.js and App Router engineering: server components, actions, middleware, SSR, and performance.',
+    keywords: [
+      'nextjs', 'server', 'component', 'components', 'actions', 'middleware', 'hydration', 'ssr', 'ssg',
+      'app', 'router', 'frontend',
+    ],
+  },
+  'django-engineer': {
+    description: 'Django and Python web engineering: models, ORM, views, auth, and migrations.',
+    keywords: [
+      'django', 'python', 'orm', 'queryset', 'models', 'migrations', 'admin', 'backend', 'fastapi',
+    ],
+  },
+  'devops-engineer': {
+    description: 'DevOps and platform engineering: containers, CI/CD, infrastructure, and observability.',
+    keywords: [
+      'devops', 'docker', 'kubernetes', 'pipeline', 'ci', 'cd', 'deployment', 'linux', 'nginx', 'terraform',
+      'observability', 'monitoring', 'tls', 'dns', 'firewall', 'ssh',
     ],
   },
 };

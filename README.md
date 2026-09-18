@@ -1,18 +1,20 @@
 # Antigravity Skill Vault
 
-A curated collection of **Agent Skills** for **Google Antigravity**, ported from the [Claude Code Agents](https://github.com/wshobson/agents) repository.
+A curated collection of **Agent Skills** for **Google Antigravity**.
 
-This vault transforms the extensive Claude Code ecosystem into **Antigravity Skills**, providing your agent with repeatable workflows, domain expertise, and specialized tools.
+This vault provides your agent with repeatable workflows, domain expertise, and specialized tools.
+
+It also includes a comprehensive **professional software engineering skills system** covering the full SDLC: requirements, architecture, frontend, backend, API, database, auth, security, testing, review/debug, performance, DevOps/CI-CD, observability, Git, docs, mobile, realtime, payments, search, AI/ML, and product engineering.
 
 ---
 
 ## 🚀 Overview
 
-This repository contains **300+ specialized skills** across software development, operations, security, and business domains. Each skill is a directory-based package that teaches Antigravity's agent how to perform specific tasks.
+This repository contains **475 specialized skills** across software development, operations, security, and business domains. Each skill is a directory-based package that teaches Antigravity's agent how to perform specific tasks.
 
 ### What's Included?
 
-The skills are derived from three types of Claude Code components, all unified into the Antigravity Skill format:
+The skills fall into three types, all unified into the Antigravity Skill format:
 
 1.  **Domain Skills** (e.g., `k8s-manifest-generator`, `async-python-patterns`): Specialized knowledge packages.
 2.  **Specialist Agents** (e.g., `backend-architect`, `security-auditor`): Persona-based instruction sets for complex reasoning.
@@ -162,7 +164,7 @@ npx @0xzahed/antigravity-skills install --tag kubernetes
 npx @0xzahed/antigravity-skills install --bundle core-dev
 ```
 
-Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-core`.
+Available bundles: `core-dev`, `security-core`, `k8s-core`, `data-core`, `ops-core`, `full-stack-engineer`, `security-engineer`, `nextjs-engineer`, `django-engineer`, `devops-engineer`.
 
 **5. Install a skill globally:**
 
@@ -244,6 +246,38 @@ cp -R /path/to/antigravity-skills/skills/<skill-name> ~/.gemini/antigravity/skil
 
 ---
 
+## 🧑‍💻 Professional Software Engineering Skills
+
+The vault ships a complete engineering skills system (475 skills total), including these specialist roles and auditors:
+
+- **Orchestrators & Planning**: `full-stack-engineer-orchestrator`, `product-engineering`
+- **Requirements**: `requirements-analysis`, `requirements-validation`, `acceptance-criteria`, `user-story-analysis`, `edge-case-analysis`, `ambiguity-detection`
+- **Architecture & Principles**: `software-architecture`, `system-design`, `architecture-review`, `modular-monolith`, `microservices`, `service-boundaries`, `clean-architecture`, `hexagonal-architecture`, `domain-driven-design`, `cqrs`, `event-driven-architecture`, `distributed-systems`, `solid-principles`, `design-patterns`, `code-smells`
+- **Frontend**: `react-development`, `nextjs-development` (+ `nextjs-server-components`, `nextjs-server-actions`, `nextjs-middleware`, `nextjs-authentication`, `nextjs-performance`), `vue-development`, `angular-development`, `component-architecture`, `state-management`, `forms-validation`, `ssr-and-hydration`, `ssg-patterns`, `frontend-performance`, `frontend-security`
+- **Backend & API**: `express-development`, `nestjs-development`, `django-engineering`, `fastapi-development`, `spring-boot-development`, `backend-controllers`, `backend-services`, `backend-dtos`, `backend-validation`, `backend-error-handling`, `backend-logging`, `background-jobs`, `queues-and-workers`, `rate-limiting`, `backend-caching`, `idempotency`, `api-contracts`, `api-versioning`, `api-error-handling`, `api-pagination`, `graphql-engineering`
+- **Database**: `database-schema-design`, `query-optimization`, `database-migrations-management`, `database-indexing`, `database-connection-pooling`, `database-replication`, `database-backup-restore`, `database-security`
+- **Auth & Security**: `authentication-architecture`, `jwt-engineering`, `oauth2-engineering`, `openid-connect`, `session-management`, `mfa-engineering`, `rbac-engineering`, `abac-engineering`, `full-stack-security-engineer`, `business-logic-security`, `secret-management`, `container-security`, `supply-chain-security`
+- **Testing, Review & Debug**: `unit-testing`, `integration-testing`, `e2e-testing-framework`, `load-testing`, `contract-testing`, `mutation-testing`, `jest-engineering`, `vitest-engineering`, `playwright-engineering`, `pytest-engineering`, `senior-code-reviewer`, `systematic-debugger`
+- **DevOps/CI-CD/Observability**: `devops-engineer`, `docker-engineering`, `kubernetes-engineering`, `nginx-engineering`, `tls-engineering`, `cicd-engineer`, `github-actions-engineering`, `gitlab-ci-engineering`, `release-management`, `blue-green-deployment`, `canary-deployment`, `logging-engineering`, `metrics-engineering`, `tracing-engineering`, `opentelemetry-engineering`, `alerting-engineering`, `incident-response`
+- **Docs & Git**: `readme-engineering`, `architecture-documentation`, `openapi-engineering`, `adr-engineering`, `changelog-engineering`, `git-workflow`, `commit-quality`, `branch-strategy`, `merge-conflict-resolution`, `git-history-analysis`
+- **Mobile, Realtime, Payments**: `mobile-architecture`, `offline-first-development`, `mobile-authentication`, `push-notifications`, `deep-linking`, `websocket-engineering`, `sse-engineering`, `payment-engineering`, `webhook-engineering`, `search-engineering`
+- **AI/ML**: `llm-integration`, `rag-engineering`
+- **Auditors**: `api-contract-auditor`, `database-performance-auditor`, `database-security-auditor`, `performance-auditor` (each ships a `references/` folder with ready-made checklists)
+
+### Caretaker skills (read-only audits)
+
+Auditor skills operate in **read-only audit mode by default**: they do not modify code unless you explicitly ask for fixes. Ask for a report and, when ready, request remediation in a follow-up.
+
+### Recommended bundles for new projects
+
+```bash
+npx @0xzahed/antigravity-skills install --bundle full-stack-engineer
+npx @0xzahed/antigravity-skills install --bundle security-engineer
+npx @0xzahed/antigravity-skills install --bundle nextjs-engineer
+```
+
+---
+
 ## ➕ Adding New Skills
 
 1.  Create a folder: `skills/<skill-name>/`
@@ -289,9 +323,9 @@ See [SECURITY.md](SECURITY.md) for safety expectations when writing skills that 
 ---
 
 ## 📜 License & Attribution
- 
+
 MIT License. See [LICENSE](LICENSE) file for details.
- 
+
 ### Upstream Attribution
 Original content © [Claude Code Agents](https://github.com/wshobson/agents).
 Ported to Antigravity Skills.

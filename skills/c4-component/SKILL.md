@@ -48,8 +48,8 @@ metadata:
 
 This component contains the following code-level elements:
 
-- [c4-code-file-1.md](./c4-code-file-1.md) - [Description]
-- [c4-code-file-2.md](./c4-code-file-2.md) - [Description]
+- `c4-code-file-1.md` - [Description]
+- `c4-code-file-2.md` - [Description]
 
 ## Interfaces
 

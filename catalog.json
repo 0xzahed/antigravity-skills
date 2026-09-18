@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-18T19:00:29.748Z",
-  "total": 307,
+  "generatedAt": "2026-09-18T19:12:18.944Z",
+  "total": 475,
   "skills": [
+    {
+      "id": "abac-engineering",
+      "name": "abac-engineering",
+      "description": "Design attribute-based access control. Use when permissions depend on context and attributes.",
+      "category": "engineering",
+      "tags": [
+        "abac",
+        "engineering"
+      ],
+      "triggers": [
+        "abac",
+        "engineering",
+        "attribute",
+        "access",
+        "control",
+        "permissions",
+        "depend",
+        "context",
+        "attributes"
+      ],
+      "path": "skills/abac-engineering/SKILL.md"
+    },
+    {
+      "id": "acceptance-criteria",
+      "name": "acceptance-criteria",
+      "description": "Write and refine acceptance criteria for user stories. Use when turning stories into testable conditions.",
+      "category": "general",
+      "tags": [
+        "acceptance",
+        "criteria"
+      ],
+      "triggers": [
+        "acceptance",
+        "criteria",
+        "write",
+        "refine",
+        "user",
+        "stories",
+        "turning",
+        "testable",
+        "conditions"
+      ],
+      "path": "skills/acceptance-criteria/SKILL.md"
+    },
     {
       "id": "accessibility-compliance-accessibility-audit",
       "name": "accessibility-compliance-accessibility-audit",
@@ -27,6 +71,30 @@
         "identify"
       ],
       "path": "skills/accessibility-compliance-accessibility-audit/SKILL.md"
+    },
+    {
+      "id": "adr-engineering",
+      "name": "adr-engineering",
+      "description": "Record architecture decisions with ADRs. Use when making or reviewing significant technical choices.",
+      "category": "architecture",
+      "tags": [
+        "adr",
+        "engineering"
+      ],
+      "triggers": [
+        "adr",
+        "engineering",
+        "record",
+        "architecture",
+        "decisions",
+        "adrs",
+        "making",
+        "reviewing",
+        "significant",
+        "technical",
+        "choices"
+      ],
+      "path": "skills/adr-engineering/SKILL.md"
     },
     {
       "id": "agent-orchestration-improve-agent",
@@ -129,10 +197,76 @@
       "path": "skills/airflow-dag-patterns/SKILL.md"
     },
     {
+      "id": "alerting-engineering",
+      "name": "alerting-engineering",
+      "description": "Design alerting that gets paged for the right reasons. Use when defining alert rules and policies.",
+      "category": "engineering",
+      "tags": [
+        "alerting",
+        "engineering"
+      ],
+      "triggers": [
+        "alerting",
+        "engineering",
+        "gets",
+        "paged",
+        "right",
+        "reasons",
+        "defining",
+        "alert",
+        "rules",
+        "policies"
+      ],
+      "path": "skills/alerting-engineering/SKILL.md"
+    },
+    {
+      "id": "ambiguity-detection",
+      "name": "ambiguity-detection",
+      "description": "Detect ambiguous or contradicting wording in requirements and specs. Use when reviewing documents before implementation.",
+      "category": "engineering",
+      "tags": [
+        "ambiguity",
+        "detection"
+      ],
+      "triggers": [
+        "ambiguity",
+        "detection",
+        "detect",
+        "ambiguous",
+        "contradicting",
+        "wording",
+        "requirements",
+        "specs",
+        "reviewing",
+        "documents",
+        "before"
+      ],
+      "path": "skills/ambiguity-detection/SKILL.md"
+    },
+    {
+      "id": "angular-development",
+      "name": "angular-development",
+      "description": "Build Angular applications. Use when developing, reviewing, or migrating Angular projects.",
+      "category": "general",
+      "tags": [
+        "angular",
+        "development"
+      ],
+      "triggers": [
+        "angular",
+        "development",
+        "applications",
+        "developing",
+        "reviewing",
+        "migrating"
+      ],
+      "path": "skills/angular-development/SKILL.md"
+    },
+    {
       "id": "angular-migration",
       "name": "angular-migration",
       "description": "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "angular",
         "migration"
@@ -182,7 +316,7 @@
     {
       "id": "antigravity-skills-manager",
       "name": "antigravity-skills-manager",
-      "description": "Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the 0xzahed/antigravity-skills catalog using pure stdlib CLI tools.",
+      "description": "Global skills manager for Google Antigravity. Explore, search, install, and manage 475+ agent skills from the 0xzahed/antigravity-skills catalog using pure stdlib CLI tools.",
       "category": "general",
       "tags": [
         "antigravity",
@@ -198,12 +332,58 @@
         "explore",
         "search",
         "install",
-        "300",
+        "475",
         "agent",
         "0xzahed",
         "catalog"
       ],
       "path": "skills/antigravity-skills-manager/SKILL.md"
+    },
+    {
+      "id": "api-contract-auditor",
+      "name": "api-contract-auditor",
+      "description": "Audit API contracts for correctness and consistency. Use when reviewing endpoint specs and implementations.",
+      "category": "development",
+      "tags": [
+        "api",
+        "contract",
+        "auditor"
+      ],
+      "triggers": [
+        "api",
+        "contract",
+        "auditor",
+        "audit",
+        "contracts",
+        "correctness",
+        "consistency",
+        "reviewing",
+        "endpoint",
+        "specs",
+        "implementations"
+      ],
+      "path": "skills/api-contract-auditor/SKILL.md"
+    },
+    {
+      "id": "api-contracts",
+      "name": "api-contracts",
+      "description": "Design clear, consistent API contracts. Use when defining endpoints, schemas, and semantics.",
+      "category": "development",
+      "tags": [
+        "api",
+        "contracts"
+      ],
+      "triggers": [
+        "api",
+        "contracts",
+        "clear",
+        "consistent",
+        "defining",
+        "endpoints",
+        "schemas",
+        "semantics"
+      ],
+      "path": "skills/api-contracts/SKILL.md"
     },
     {
       "id": "api-design-principles",
@@ -256,6 +436,92 @@
       "path": "skills/api-documenter/SKILL.md"
     },
     {
+      "id": "api-error-handling",
+      "name": "api-error-handling",
+      "description": "Design API error responses. Use when defining and implementing API errors.",
+      "category": "development",
+      "tags": [
+        "api",
+        "error",
+        "handling"
+      ],
+      "triggers": [
+        "api",
+        "error",
+        "handling",
+        "responses",
+        "defining",
+        "implementing",
+        "errors"
+      ],
+      "path": "skills/api-error-handling/SKILL.md"
+    },
+    {
+      "id": "api-migration",
+      "name": "api-migration",
+      "description": "Migrate APIs without breaking consumers. Use when moving between API generations or technologies.",
+      "category": "development",
+      "tags": [
+        "api",
+        "migration"
+      ],
+      "triggers": [
+        "api",
+        "migration",
+        "migrate",
+        "apis",
+        "without",
+        "breaking",
+        "consumers",
+        "moving",
+        "between",
+        "generations",
+        "technologies"
+      ],
+      "path": "skills/api-migration/SKILL.md"
+    },
+    {
+      "id": "api-pagination",
+      "name": "api-pagination",
+      "description": "Implement consistent pagination. Use when returning lists from APIs.",
+      "category": "development",
+      "tags": [
+        "api",
+        "pagination"
+      ],
+      "triggers": [
+        "api",
+        "pagination",
+        "consistent",
+        "returning",
+        "lists",
+        "apis"
+      ],
+      "path": "skills/api-pagination/SKILL.md"
+    },
+    {
+      "id": "api-testing",
+      "name": "api-testing",
+      "description": "Test APIs end-to-end. Use when verifying contracts, behavior, and resilience at the API level.",
+      "category": "development",
+      "tags": [
+        "api",
+        "testing"
+      ],
+      "triggers": [
+        "api",
+        "testing",
+        "test",
+        "apis",
+        "verifying",
+        "contracts",
+        "behavior",
+        "resilience",
+        "level"
+      ],
+      "path": "skills/api-testing/SKILL.md"
+    },
+    {
       "id": "api-testing-observability-api-mock",
       "name": "api-testing-observability-api-mock",
       "description": "You are an API mocking expert specializing in realistic mock services for development, testing, and demos. Design mocks that simulate real API behavior and enable parallel development.",
@@ -280,6 +546,26 @@
         "real"
       ],
       "path": "skills/api-testing-observability-api-mock/SKILL.md"
+    },
+    {
+      "id": "api-versioning",
+      "name": "api-versioning",
+      "description": "Version APIs safely. Use when evolving an API that has consumers.",
+      "category": "development",
+      "tags": [
+        "api",
+        "versioning"
+      ],
+      "triggers": [
+        "api",
+        "versioning",
+        "version",
+        "apis",
+        "safely",
+        "evolving",
+        "consumers"
+      ],
+      "path": "skills/api-versioning/SKILL.md"
     },
     {
       "id": "application-performance-performance-optimization",
@@ -355,6 +641,26 @@
       "path": "skills/architecture-decision-records/SKILL.md"
     },
     {
+      "id": "architecture-documentation",
+      "name": "architecture-documentation",
+      "description": "Document architecture clearly. Use when capturing design intent for teams.",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "documentation"
+      ],
+      "triggers": [
+        "architecture",
+        "documentation",
+        "document",
+        "clearly",
+        "capturing",
+        "intent",
+        "teams"
+      ],
+      "path": "skills/architecture-documentation/SKILL.md"
+    },
+    {
       "id": "architecture-patterns",
       "name": "architecture-patterns",
       "description": "Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use when architecting complex backend systems or refactoring existing applications for better maintainability.",
@@ -379,10 +685,32 @@
       "path": "skills/architecture-patterns/SKILL.md"
     },
     {
+      "id": "architecture-review",
+      "name": "architecture-review",
+      "description": "Review an existing architecture for risks and improvements. Use when evaluating a design or codebase at a structural level.",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "review"
+      ],
+      "triggers": [
+        "architecture",
+        "review",
+        "existing",
+        "risks",
+        "improvements",
+        "evaluating",
+        "codebase",
+        "structural",
+        "level"
+      ],
+      "path": "skills/architecture-review/SKILL.md"
+    },
+    {
       "id": "arm-cortex-expert",
       "name": "arm-cortex-expert",
       "description": "Senior embedded software engineer specializing in firmware and driver development for ARM Cortex-M microcontrollers (Teensy, STM32, nRF52, SAMD). Decades of experience writing reliable, optimized, and maintainable embedded code with deep expertise in memory barriers, DMA/cache coherency, interrupt-driven I/O, and peripheral drivers.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "arm",
         "cortex"
@@ -504,6 +832,26 @@
       "path": "skills/auth-implementation-patterns/SKILL.md"
     },
     {
+      "id": "authentication-architecture",
+      "name": "authentication-architecture",
+      "description": "Design authentication architecture. Use when planning how users authenticate across an app.",
+      "category": "architecture",
+      "tags": [
+        "authentication",
+        "architecture"
+      ],
+      "triggers": [
+        "authentication",
+        "architecture",
+        "planning",
+        "how",
+        "users",
+        "authenticate",
+        "app"
+      ],
+      "path": "skills/authentication-architecture/SKILL.md"
+    },
+    {
       "id": "backend-architect",
       "name": "backend-architect",
       "description": "Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems. Masters REST/GraphQL/gRPC APIs, event-driven architectures, service mesh patterns, and modern backend frameworks. Handles service boundary definition, inter-service communication, resilience patterns, and observability. Use PROACTIVELY when creating new backend services or APIs.",
@@ -528,6 +876,53 @@
       "path": "skills/backend-architect/SKILL.md"
     },
     {
+      "id": "backend-caching",
+      "name": "backend-caching",
+      "description": "Design backend caching layers. Use when speeding up reads or reducing load on sources.",
+      "category": "development",
+      "tags": [
+        "backend",
+        "caching"
+      ],
+      "triggers": [
+        "backend",
+        "caching",
+        "layers",
+        "speeding",
+        "up",
+        "reads",
+        "reducing",
+        "load",
+        "sources"
+      ],
+      "path": "skills/backend-caching/SKILL.md"
+    },
+    {
+      "id": "backend-controllers",
+      "name": "backend-controllers",
+      "description": "Design controller/handler layers for HTTP backends. Use when defining the boundary between HTTP and application logic.",
+      "category": "development",
+      "tags": [
+        "backend",
+        "controllers"
+      ],
+      "triggers": [
+        "backend",
+        "controllers",
+        "controller",
+        "handler",
+        "layers",
+        "http",
+        "backends",
+        "defining",
+        "boundary",
+        "between",
+        "application",
+        "logic"
+      ],
+      "path": "skills/backend-controllers/SKILL.md"
+    },
+    {
       "id": "backend-development-feature-development",
       "name": "backend-development-feature-development",
       "description": "Orchestrate end-to-end backend feature development from requirements to deployment. Use when coordinating multi-phase feature delivery across teams and services.",
@@ -549,6 +944,74 @@
         "teams"
       ],
       "path": "skills/backend-development-feature-development/SKILL.md"
+    },
+    {
+      "id": "backend-dtos",
+      "name": "backend-dtos",
+      "description": "Define Data Transfer Objects for API boundaries. Use when shaping request/response contracts.",
+      "category": "data-ai",
+      "tags": [
+        "backend",
+        "dtos"
+      ],
+      "triggers": [
+        "backend",
+        "dtos",
+        "define",
+        "data",
+        "transfer",
+        "objects",
+        "api",
+        "boundaries",
+        "shaping",
+        "request",
+        "response",
+        "contracts"
+      ],
+      "path": "skills/backend-dtos/SKILL.md"
+    },
+    {
+      "id": "backend-error-handling",
+      "name": "backend-error-handling",
+      "description": "Design consistent backend error handling. Use when shaping error responses and error propagation.",
+      "category": "development",
+      "tags": [
+        "backend",
+        "error",
+        "handling"
+      ],
+      "triggers": [
+        "backend",
+        "error",
+        "handling",
+        "consistent",
+        "shaping",
+        "responses",
+        "propagation"
+      ],
+      "path": "skills/backend-error-handling/SKILL.md"
+    },
+    {
+      "id": "backend-logging",
+      "name": "backend-logging",
+      "description": "Implement effective server-side logging. Use when adding or improving application logs.",
+      "category": "infrastructure",
+      "tags": [
+        "backend",
+        "logging"
+      ],
+      "triggers": [
+        "backend",
+        "logging",
+        "effective",
+        "server",
+        "side",
+        "adding",
+        "improving",
+        "application",
+        "logs"
+      ],
+      "path": "skills/backend-logging/SKILL.md"
     },
     {
       "id": "backend-security-coder",
@@ -575,6 +1038,66 @@
         "implementations"
       ],
       "path": "skills/backend-security-coder/SKILL.md"
+    },
+    {
+      "id": "backend-services",
+      "name": "backend-services",
+      "description": "Structure backend service layers. Use when organizing application logic and its boundaries.",
+      "category": "infrastructure",
+      "tags": [
+        "backend",
+        "services"
+      ],
+      "triggers": [
+        "backend",
+        "services",
+        "structure",
+        "layers",
+        "organizing",
+        "application",
+        "logic",
+        "boundaries"
+      ],
+      "path": "skills/backend-services/SKILL.md"
+    },
+    {
+      "id": "backend-validation",
+      "name": "backend-validation",
+      "description": "Validate backend input thoroughly. Use when implementing input validation on servers.",
+      "category": "development",
+      "tags": [
+        "backend",
+        "validation"
+      ],
+      "triggers": [
+        "backend",
+        "validation",
+        "validate",
+        "input",
+        "thoroughly",
+        "implementing",
+        "servers"
+      ],
+      "path": "skills/backend-validation/SKILL.md"
+    },
+    {
+      "id": "background-jobs",
+      "name": "background-jobs",
+      "description": "Design and implement background jobs. Use when deferring work out of the request path.",
+      "category": "general",
+      "tags": [
+        "background",
+        "jobs"
+      ],
+      "triggers": [
+        "background",
+        "jobs",
+        "deferring",
+        "work",
+        "request",
+        "path"
+      ],
+      "path": "skills/background-jobs/SKILL.md"
     },
     {
       "id": "backtesting-frameworks",
@@ -773,6 +1296,52 @@
       "path": "skills/blockchain-developer/SKILL.md"
     },
     {
+      "id": "blue-green-deployment",
+      "name": "blue-green-deployment",
+      "description": "Roll out releases with zero downtime using blue-green. Use when you need instant rollback and zero-downtime deploys.",
+      "category": "security",
+      "tags": [
+        "blue",
+        "green",
+        "deployment"
+      ],
+      "triggers": [
+        "blue",
+        "green",
+        "deployment",
+        "roll",
+        "releases",
+        "zero",
+        "downtime",
+        "instant",
+        "rollback",
+        "deploys"
+      ],
+      "path": "skills/blue-green-deployment/SKILL.md"
+    },
+    {
+      "id": "branch-strategy",
+      "name": "branch-strategy",
+      "description": "Define and follow branch strategies for teams. Use when structuring branch naming, lifecycle, and protection.",
+      "category": "general",
+      "tags": [
+        "branch",
+        "strategy"
+      ],
+      "triggers": [
+        "branch",
+        "strategy",
+        "define",
+        "follow",
+        "teams",
+        "structuring",
+        "naming",
+        "lifecycle",
+        "protection"
+      ],
+      "path": "skills/branch-strategy/SKILL.md"
+    },
+    {
       "id": "business-analyst",
       "name": "business-analyst",
       "description": "Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive models, and strategic recommendations. Use PROACTIVELY for business intelligence or strategic analysis.",
@@ -798,10 +1367,34 @@
       "path": "skills/business-analyst/SKILL.md"
     },
     {
+      "id": "business-logic-security",
+      "name": "business-logic-security",
+      "description": "Find and fix business logic vulnerabilities. Use when reviewing flows that abuse business rules.",
+      "category": "security",
+      "tags": [
+        "business",
+        "logic",
+        "security"
+      ],
+      "triggers": [
+        "business",
+        "logic",
+        "security",
+        "find",
+        "fix",
+        "vulnerabilities",
+        "reviewing",
+        "flows",
+        "abuse",
+        "rules"
+      ],
+      "path": "skills/business-logic-security/SKILL.md"
+    },
+    {
       "id": "c-pro",
       "name": "c-pro",
       "description": "Write efficient C code with proper memory management, pointer arithmetic, and system calls. Handles embedded systems, kernel modules, and performance-critical code. Use PROACTIVELY for C optimization, memory issues, or system programming.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "c"
       ],
@@ -945,6 +1538,30 @@
       "path": "skills/c4-context/SKILL.md"
     },
     {
+      "id": "canary-deployment",
+      "name": "canary-deployment",
+      "description": "Roll out changes gradually to small traffic. Use when you want progressive exposure with monitoring.",
+      "category": "infrastructure",
+      "tags": [
+        "canary",
+        "deployment"
+      ],
+      "triggers": [
+        "canary",
+        "deployment",
+        "roll",
+        "changes",
+        "gradually",
+        "small",
+        "traffic",
+        "want",
+        "progressive",
+        "exposure",
+        "monitoring"
+      ],
+      "path": "skills/canary-deployment/SKILL.md"
+    },
+    {
       "id": "changelog-automation",
       "name": "changelog-automation",
       "description": "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.",
@@ -967,6 +1584,29 @@
         "up"
       ],
       "path": "skills/changelog-automation/SKILL.md"
+    },
+    {
+      "id": "changelog-engineering",
+      "name": "changelog-engineering",
+      "description": "Maintain changelogs that serve users. Use when writing or automating release notes.",
+      "category": "engineering",
+      "tags": [
+        "changelog",
+        "engineering"
+      ],
+      "triggers": [
+        "changelog",
+        "engineering",
+        "maintain",
+        "changelogs",
+        "serve",
+        "users",
+        "writing",
+        "automating",
+        "release",
+        "notes"
+      ],
+      "path": "skills/changelog-engineering/SKILL.md"
     },
     {
       "id": "cicd-automation-workflow-automate",
@@ -992,6 +1632,53 @@
         "automated"
       ],
       "path": "skills/cicd-automation-workflow-automate/SKILL.md"
+    },
+    {
+      "id": "cicd-engineer",
+      "name": "cicd-engineer",
+      "description": "Design and maintain CI/CD pipelines. Use when building build/test/deploy automation.",
+      "category": "infrastructure",
+      "tags": [
+        "cicd",
+        "engineer"
+      ],
+      "triggers": [
+        "cicd",
+        "engineer",
+        "maintain",
+        "ci",
+        "cd",
+        "pipelines",
+        "building",
+        "test",
+        "deploy",
+        "automation"
+      ],
+      "path": "skills/cicd-engineer/SKILL.md"
+    },
+    {
+      "id": "clean-architecture",
+      "name": "clean-architecture",
+      "description": "Structure code with clean architecture: inner business layers independent of frameworks. Use when organizing application code by layers.",
+      "category": "architecture",
+      "tags": [
+        "clean",
+        "architecture"
+      ],
+      "triggers": [
+        "clean",
+        "architecture",
+        "structure",
+        "code",
+        "inner",
+        "business",
+        "layers",
+        "independent",
+        "frameworks",
+        "organizing",
+        "application"
+      ],
+      "path": "skills/clean-architecture/SKILL.md"
     },
     {
       "id": "cloud-architect",
@@ -1021,7 +1708,7 @@
       "id": "code-documentation-code-explain",
       "name": "code-documentation-code-explain",
       "description": "You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform difficult concepts into understandable explanations.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "code",
         "documentation",
@@ -1074,7 +1761,7 @@
       "id": "code-refactoring-context-restore",
       "name": "code-refactoring-context-restore",
       "description": "Use when working with code refactoring context restore",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "code",
         "refactoring",
@@ -1120,7 +1807,7 @@
       "id": "code-refactoring-tech-debt",
       "name": "code-refactoring-tech-debt",
       "description": "You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncover debt, assess its impact, and create acti",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "code",
         "refactoring",
@@ -1172,7 +1859,7 @@
       "id": "code-review-excellence",
       "name": "code-review-excellence",
       "description": "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "code",
         "excellence"
@@ -1216,6 +1903,27 @@
         "optimization"
       ],
       "path": "skills/code-reviewer/SKILL.md"
+    },
+    {
+      "id": "code-smells",
+      "name": "code-smells",
+      "description": "Identify code smells and suggest refactors. Use when reviewing code for quality signals.",
+      "category": "engineering",
+      "tags": [
+        "code",
+        "smells"
+      ],
+      "triggers": [
+        "code",
+        "smells",
+        "identify",
+        "suggest",
+        "refactors",
+        "reviewing",
+        "quality",
+        "signals"
+      ],
+      "path": "skills/code-smells/SKILL.md"
     },
     {
       "id": "codebase-cleanup-deps-audit",
@@ -1299,6 +2007,28 @@
       "path": "skills/codebase-cleanup-tech-debt/SKILL.md"
     },
     {
+      "id": "commit-quality",
+      "name": "commit-quality",
+      "description": "Write high-quality commits. Use when authoring or reviewing commit messages and granularity.",
+      "category": "engineering",
+      "tags": [
+        "commit",
+        "quality"
+      ],
+      "triggers": [
+        "commit",
+        "quality",
+        "write",
+        "high",
+        "commits",
+        "authoring",
+        "reviewing",
+        "messages",
+        "granularity"
+      ],
+      "path": "skills/commit-quality/SKILL.md"
+    },
+    {
       "id": "competitive-landscape",
       "name": "competitive-landscape",
       "description": "This skill should be used when the user asks to \"analyze competitors\", \"assess competitive landscape\", \"identify differentiation\", \"evaluate market positioning\", \"apply Porter's Five Forces\", or requests competitive strategy analysis.",
@@ -1324,10 +2054,29 @@
       "path": "skills/competitive-landscape/SKILL.md"
     },
     {
+      "id": "component-architecture",
+      "name": "component-architecture",
+      "description": "Design scalable component architecture. Use when planning or refactoring a component tree.",
+      "category": "architecture",
+      "tags": [
+        "component",
+        "architecture"
+      ],
+      "triggers": [
+        "component",
+        "architecture",
+        "scalable",
+        "planning",
+        "refactoring",
+        "tree"
+      ],
+      "path": "skills/component-architecture/SKILL.md"
+    },
+    {
       "id": "comprehensive-review-full-review",
       "name": "comprehensive-review-full-review",
       "description": "Use when working with comprehensive review full review",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "comprehensive",
         "full"
@@ -1344,7 +2093,7 @@
       "id": "comprehensive-review-pr-enhance",
       "name": "comprehensive-review-pr-enhance",
       "description": "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensure PRs follow best practices for clarity, size, and reviewability.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "comprehensive",
         "pr",
@@ -1365,6 +2114,30 @@
         "facilitate"
       ],
       "path": "skills/comprehensive-review-pr-enhance/SKILL.md"
+    },
+    {
+      "id": "concurrency-management",
+      "name": "concurrency-management",
+      "description": "Manage concurrency in backend code. Use when handling threads, async tasks, and shared resources safely.",
+      "category": "development",
+      "tags": [
+        "concurrency",
+        "management"
+      ],
+      "triggers": [
+        "concurrency",
+        "management",
+        "backend",
+        "code",
+        "handling",
+        "threads",
+        "async",
+        "tasks",
+        "shared",
+        "resources",
+        "safely"
+      ],
+      "path": "skills/concurrency-management/SKILL.md"
     },
     {
       "id": "conductor-implement",
@@ -1522,6 +2295,28 @@
       "path": "skills/conductor-validator/SKILL.md"
     },
     {
+      "id": "container-security",
+      "name": "container-security",
+      "description": "Secure container images and runtimes. Use when hardening Docker/K8s workloads.",
+      "category": "security",
+      "tags": [
+        "container",
+        "security"
+      ],
+      "triggers": [
+        "container",
+        "security",
+        "secure",
+        "images",
+        "runtimes",
+        "hardening",
+        "docker",
+        "k8s",
+        "workloads"
+      ],
+      "path": "skills/container-security/SKILL.md"
+    },
+    {
       "id": "content-marketer",
       "name": "content-marketer",
       "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing. Masters modern content tools, social media automation, and conversion optimization with 2024/2025 best practices. Use PROACTIVELY for comprehensive content marketing.",
@@ -1625,6 +2420,28 @@
       "path": "skills/context-manager/SKILL.md"
     },
     {
+      "id": "contract-testing",
+      "name": "contract-testing",
+      "description": "Verify contracts between services and consumers. Use when services must evolve independently.",
+      "category": "testing",
+      "tags": [
+        "contract",
+        "testing"
+      ],
+      "triggers": [
+        "contract",
+        "testing",
+        "verify",
+        "contracts",
+        "between",
+        "consumers",
+        "must",
+        "evolve",
+        "independently"
+      ],
+      "path": "skills/contract-testing/SKILL.md"
+    },
+    {
       "id": "cost-optimization",
       "name": "cost-optimization",
       "description": "Optimize cloud costs through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policies.",
@@ -1672,6 +2489,28 @@
         "move"
       ],
       "path": "skills/cpp-pro/SKILL.md"
+    },
+    {
+      "id": "cqrs",
+      "name": "cqrs",
+      "description": "Split reads and writes into separate models using CQRS. Use when read and write patterns diverge sharply.",
+      "category": "architecture",
+      "tags": [
+        "cqrs"
+      ],
+      "triggers": [
+        "cqrs",
+        "split",
+        "reads",
+        "writes",
+        "separate",
+        "models",
+        "read",
+        "write",
+        "diverge",
+        "sharply"
+      ],
+      "path": "skills/cqrs/SKILL.md"
     },
     {
       "id": "cqrs-implementation",
@@ -1948,6 +2787,28 @@
       "path": "skills/database-architect/SKILL.md"
     },
     {
+      "id": "database-backup-restore",
+      "name": "database-backup-restore",
+      "description": "Design and test backup and restore. Use when planning disaster recovery for databases.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "backup",
+        "restore"
+      ],
+      "triggers": [
+        "database",
+        "backup",
+        "restore",
+        "test",
+        "planning",
+        "disaster",
+        "recovery",
+        "databases"
+      ],
+      "path": "skills/database-backup-restore/SKILL.md"
+    },
+    {
       "id": "database-cloud-optimization-cost-optimize",
       "name": "database-cloud-optimization-cost-optimize",
       "description": "You are a cloud cost optimization expert specializing in reducing infrastructure expenses while maintaining performance and reliability. Analyze cloud spending, identify savings opportunities, and implement cost-effective architectures across AWS, Azure, and GCP.",
@@ -1976,6 +2837,46 @@
       "path": "skills/database-cloud-optimization-cost-optimize/SKILL.md"
     },
     {
+      "id": "database-connection-pooling",
+      "name": "database-connection-pooling",
+      "description": "Manage database connection pooling. Use when tuning application-to-database connection usage.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "connection",
+        "pooling"
+      ],
+      "triggers": [
+        "database",
+        "connection",
+        "pooling",
+        "tuning",
+        "application",
+        "usage"
+      ],
+      "path": "skills/database-connection-pooling/SKILL.md"
+    },
+    {
+      "id": "database-indexing",
+      "name": "database-indexing",
+      "description": "Design indexes for real workloads. Use when adding or reviewing indexes.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "indexing"
+      ],
+      "triggers": [
+        "database",
+        "indexing",
+        "indexes",
+        "real",
+        "workloads",
+        "adding",
+        "reviewing"
+      ],
+      "path": "skills/database-indexing/SKILL.md"
+    },
+    {
       "id": "database-migration",
       "name": "database-migration",
       "description": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies.",
@@ -1999,6 +2900,28 @@
         "procedures"
       ],
       "path": "skills/database-migration/SKILL.md"
+    },
+    {
+      "id": "database-migrations-management",
+      "name": "database-migrations-management",
+      "description": "Manage schema migrations safely. Use when changing database structure in a deployed system.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "migrations",
+        "management"
+      ],
+      "triggers": [
+        "database",
+        "migrations",
+        "management",
+        "schema",
+        "safely",
+        "changing",
+        "structure",
+        "deployed"
+      ],
+      "path": "skills/database-migrations-management/SKILL.md"
     },
     {
       "id": "database-migrations-migration-observability",
@@ -2087,6 +3010,138 @@
       "path": "skills/database-optimizer/SKILL.md"
     },
     {
+      "id": "database-performance-auditor",
+      "name": "database-performance-auditor",
+      "description": "Audit database performance and capacity. Use when a system is slow or when planning DB growth.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "performance",
+        "auditor"
+      ],
+      "triggers": [
+        "database",
+        "performance",
+        "auditor",
+        "audit",
+        "capacity",
+        "slow",
+        "planning",
+        "db",
+        "growth"
+      ],
+      "path": "skills/database-performance-auditor/SKILL.md"
+    },
+    {
+      "id": "database-replication",
+      "name": "database-replication",
+      "description": "Design and operate read replicas and replication. Use when scaling reads or adding redundancy.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "replication"
+      ],
+      "triggers": [
+        "database",
+        "replication",
+        "operate",
+        "read",
+        "replicas",
+        "scaling",
+        "reads",
+        "adding",
+        "redundancy"
+      ],
+      "path": "skills/database-replication/SKILL.md"
+    },
+    {
+      "id": "database-schema-design",
+      "name": "database-schema-design",
+      "description": "Design database schemas. Use when modeling data storage for a new feature or system.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "schema"
+      ],
+      "triggers": [
+        "database",
+        "schema",
+        "schemas",
+        "modeling",
+        "data",
+        "storage",
+        "new",
+        "feature"
+      ],
+      "path": "skills/database-schema-design/SKILL.md"
+    },
+    {
+      "id": "database-security",
+      "name": "database-security",
+      "description": "Secure database access and data. Use when reviewing or hardening database setup.",
+      "category": "security",
+      "tags": [
+        "database",
+        "security"
+      ],
+      "triggers": [
+        "database",
+        "security",
+        "secure",
+        "access",
+        "data",
+        "reviewing",
+        "hardening",
+        "setup"
+      ],
+      "path": "skills/database-security/SKILL.md"
+    },
+    {
+      "id": "database-security-auditor",
+      "name": "database-security-auditor",
+      "description": "Audit database security. Use when reviewing DB access, encryption, and data protection.",
+      "category": "security",
+      "tags": [
+        "database",
+        "security",
+        "auditor"
+      ],
+      "triggers": [
+        "database",
+        "security",
+        "auditor",
+        "audit",
+        "reviewing",
+        "db",
+        "access",
+        "encryption",
+        "data",
+        "protection"
+      ],
+      "path": "skills/database-security-auditor/SKILL.md"
+    },
+    {
+      "id": "database-transactions",
+      "name": "database-transactions",
+      "description": "Handle database transactions correctly. Use when designing multi-step writes in a database.",
+      "category": "data-ai",
+      "tags": [
+        "database",
+        "transactions"
+      ],
+      "triggers": [
+        "database",
+        "transactions",
+        "handle",
+        "correctly",
+        "designing",
+        "multi",
+        "step",
+        "writes"
+      ],
+      "path": "skills/database-transactions/SKILL.md"
+    },
+    {
       "id": "dbt-transformation-patterns",
       "name": "dbt-transformation-patterns",
       "description": "Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or implementing analytics engineering best practices.",
@@ -2135,6 +3190,29 @@
       "path": "skills/debugger/SKILL.md"
     },
     {
+      "id": "debugging-observability",
+      "name": "debugging-observability",
+      "description": "Debug production issues using observability data. Use when tracing a user-visible problem from production signals.",
+      "category": "infrastructure",
+      "tags": [
+        "debugging",
+        "observability"
+      ],
+      "triggers": [
+        "debugging",
+        "observability",
+        "debug",
+        "issues",
+        "data",
+        "tracing",
+        "user",
+        "visible",
+        "problem",
+        "signals"
+      ],
+      "path": "skills/debugging-observability/SKILL.md"
+    },
+    {
       "id": "debugging-strategies",
       "name": "debugging-strategies",
       "description": "Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance issues, or unexpected behavior.",
@@ -2163,7 +3241,7 @@
       "id": "debugging-toolkit-smart-debug",
       "name": "debugging-toolkit-smart-debug",
       "description": "Use when working with debugging toolkit smart debug",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "debugging",
         "debug"
@@ -2176,6 +3254,28 @@
         "working"
       ],
       "path": "skills/debugging-toolkit-smart-debug/SKILL.md"
+    },
+    {
+      "id": "deep-linking",
+      "name": "deep-linking",
+      "description": "Implement safe deep linking. Use when opening app content from URLs or QR codes.",
+      "category": "general",
+      "tags": [
+        "deep",
+        "linking"
+      ],
+      "triggers": [
+        "deep",
+        "linking",
+        "safe",
+        "opening",
+        "app",
+        "content",
+        "urls",
+        "qr",
+        "codes"
+      ],
+      "path": "skills/deep-linking/SKILL.md"
     },
     {
       "id": "defi-protocol-templates",
@@ -2203,6 +3303,30 @@
       "path": "skills/defi-protocol-templates/SKILL.md"
     },
     {
+      "id": "dependency-management",
+      "name": "dependency-management",
+      "description": "Manage software dependencies: adding, auditing, upgrading, and staying secure. Use when working with package dependencies.",
+      "category": "general",
+      "tags": [
+        "dependency",
+        "management"
+      ],
+      "triggers": [
+        "dependency",
+        "management",
+        "software",
+        "dependencies",
+        "adding",
+        "auditing",
+        "upgrading",
+        "staying",
+        "secure",
+        "working",
+        "package"
+      ],
+      "path": "skills/dependency-management/SKILL.md"
+    },
+    {
       "id": "dependency-management-deps-audit",
       "name": "dependency-management-deps-audit",
       "description": "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.",
@@ -2227,6 +3351,30 @@
         "analyze"
       ],
       "path": "skills/dependency-management-deps-audit/SKILL.md"
+    },
+    {
+      "id": "dependency-security",
+      "name": "dependency-security",
+      "description": "Audit and secure third-party dependencies. Use when checking package/library risk.",
+      "category": "security",
+      "tags": [
+        "dependency",
+        "security"
+      ],
+      "triggers": [
+        "dependency",
+        "security",
+        "audit",
+        "secure",
+        "third",
+        "party",
+        "dependencies",
+        "checking",
+        "package",
+        "library",
+        "risk"
+      ],
+      "path": "skills/dependency-security/SKILL.md"
     },
     {
       "id": "dependency-upgrade",
@@ -2330,6 +3478,68 @@
       "path": "skills/deployment-validation-config-validate/SKILL.md"
     },
     {
+      "id": "design-patterns",
+      "name": "design-patterns",
+      "description": "Apply classic design patterns appropriately. Use when selecting patterns or refactoring toward proven structures.",
+      "category": "architecture",
+      "tags": [],
+      "triggers": [
+        "apply",
+        "classic",
+        "appropriately",
+        "selecting",
+        "refactoring",
+        "toward",
+        "proven",
+        "structures"
+      ],
+      "path": "skills/design-patterns/SKILL.md"
+    },
+    {
+      "id": "device-session-management",
+      "name": "device-session-management",
+      "description": "Manage sessions across devices. Use when handling login sessions on multiple devices.",
+      "category": "general",
+      "tags": [
+        "device",
+        "session",
+        "management"
+      ],
+      "triggers": [
+        "device",
+        "session",
+        "management",
+        "sessions",
+        "devices",
+        "handling",
+        "login",
+        "multiple"
+      ],
+      "path": "skills/device-session-management/SKILL.md"
+    },
+    {
+      "id": "devops-engineer",
+      "name": "devops-engineer",
+      "description": "Design and operate deployment pipelines and infrastructure workflows. Use for platform-level engineering.",
+      "category": "infrastructure",
+      "tags": [
+        "devops",
+        "engineer"
+      ],
+      "triggers": [
+        "devops",
+        "engineer",
+        "operate",
+        "deployment",
+        "pipelines",
+        "infrastructure",
+        "platform",
+        "level",
+        "engineering"
+      ],
+      "path": "skills/devops-engineer/SKILL.md"
+    },
+    {
       "id": "devops-troubleshooter",
       "name": "devops-troubleshooter",
       "description": "Expert DevOps troubleshooter specializing in rapid incident response, advanced debugging, and modern observability. Masters log analysis, distributed tracing, Kubernetes debugging, performance optimization, and root cause analysis. Handles production outages, system reliability, and preventive monitoring. Use PROACTIVELY for debugging, incident response, or system troubleshooting.",
@@ -2382,6 +3592,50 @@
       "path": "skills/distributed-debugging-debug-trace/SKILL.md"
     },
     {
+      "id": "distributed-locking",
+      "name": "distributed-locking",
+      "description": "Implement distributed locks safely. Use when coordinating access across processes or instances.",
+      "category": "general",
+      "tags": [
+        "distributed",
+        "locking"
+      ],
+      "triggers": [
+        "distributed",
+        "locking",
+        "locks",
+        "safely",
+        "coordinating",
+        "access",
+        "processes",
+        "instances"
+      ],
+      "path": "skills/distributed-locking/SKILL.md"
+    },
+    {
+      "id": "distributed-systems",
+      "name": "distributed-systems",
+      "description": "Design and reason about distributed systems. Use when dealing with multiple nodes, consistency, and failure handling.",
+      "category": "general",
+      "tags": [
+        "distributed",
+        "systems"
+      ],
+      "triggers": [
+        "distributed",
+        "systems",
+        "reason",
+        "about",
+        "dealing",
+        "multiple",
+        "nodes",
+        "consistency",
+        "failure",
+        "handling"
+      ],
+      "path": "skills/distributed-systems/SKILL.md"
+    },
+    {
       "id": "distributed-tracing",
       "name": "distributed-tracing",
       "description": "Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance bottlenecks. Use when debugging microservices, analyzing request flows, or implementing observability for distributed systems.",
@@ -2407,6 +3661,26 @@
       "path": "skills/distributed-tracing/SKILL.md"
     },
     {
+      "id": "django-engineering",
+      "name": "django-engineering",
+      "description": "Develop maintainable Django applications. Use when building or reviewing Django projects.",
+      "category": "development",
+      "tags": [
+        "django",
+        "engineering"
+      ],
+      "triggers": [
+        "django",
+        "engineering",
+        "develop",
+        "maintainable",
+        "applications",
+        "building",
+        "reviewing"
+      ],
+      "path": "skills/django-engineering/SKILL.md"
+    },
+    {
       "id": "django-pro",
       "name": "django-pro",
       "description": "Master Django 5.x with async views, DRF, Celery, and Django Channels. Build scalable web applications with proper architecture, testing, and deployment. Use PROACTIVELY for Django development, ORM optimization, or complex Django patterns.",
@@ -2429,6 +3703,72 @@
         "architecture"
       ],
       "path": "skills/django-pro/SKILL.md"
+    },
+    {
+      "id": "dns-engineering",
+      "name": "dns-engineering",
+      "description": "Manage DNS records and their effects on services. Use when configuring domains and records.",
+      "category": "engineering",
+      "tags": [
+        "dns",
+        "engineering"
+      ],
+      "triggers": [
+        "dns",
+        "engineering",
+        "records",
+        "effects",
+        "configuring",
+        "domains"
+      ],
+      "path": "skills/dns-engineering/SKILL.md"
+    },
+    {
+      "id": "docker-compose-engineering",
+      "name": "docker-compose-engineering",
+      "description": "Orchestrate local and simple multi-container stacks with Docker Compose. Use when running dev dependencies or small deployments.",
+      "category": "engineering",
+      "tags": [
+        "docker",
+        "compose",
+        "engineering"
+      ],
+      "triggers": [
+        "docker",
+        "compose",
+        "engineering",
+        "orchestrate",
+        "local",
+        "simple",
+        "multi",
+        "container",
+        "stacks",
+        "running",
+        "dev",
+        "dependencies"
+      ],
+      "path": "skills/docker-compose-engineering/SKILL.md"
+    },
+    {
+      "id": "docker-engineering",
+      "name": "docker-engineering",
+      "description": "Containerize applications with Docker best practices. Use when writing Dockerfiles or managing images.",
+      "category": "engineering",
+      "tags": [
+        "docker",
+        "engineering"
+      ],
+      "triggers": [
+        "docker",
+        "engineering",
+        "containerize",
+        "applications",
+        "writing",
+        "dockerfiles",
+        "managing",
+        "images"
+      ],
+      "path": "skills/docker-engineering/SKILL.md"
     },
     {
       "id": "docs-architect",
@@ -2480,6 +3820,31 @@
         "diagrams"
       ],
       "path": "skills/documentation-generation-doc-generate/SKILL.md"
+    },
+    {
+      "id": "domain-driven-design",
+      "name": "domain-driven-design",
+      "description": "Apply DDD: ubiquitous language, tactical patterns, and bounded contexts. Use when modeling complex business logic.",
+      "category": "architecture",
+      "tags": [
+        "domain",
+        "driven"
+      ],
+      "triggers": [
+        "domain",
+        "driven",
+        "apply",
+        "ddd",
+        "ubiquitous",
+        "language",
+        "tactical",
+        "bounded",
+        "contexts",
+        "modeling",
+        "complex",
+        "business"
+      ],
+      "path": "skills/domain-driven-design/SKILL.md"
     },
     {
       "id": "dotnet-architect",
@@ -2556,6 +3921,32 @@
       "path": "skills/dx-optimizer/SKILL.md"
     },
     {
+      "id": "e2e-testing-framework",
+      "name": "e2e-testing-framework",
+      "description": "Write and run end-to-end tests. Use when verifying complete user flows through the real app.",
+      "category": "testing",
+      "tags": [
+        "e2e",
+        "testing",
+        "framework"
+      ],
+      "triggers": [
+        "e2e",
+        "testing",
+        "framework",
+        "write",
+        "run",
+        "tests",
+        "verifying",
+        "complete",
+        "user",
+        "flows",
+        "through",
+        "real"
+      ],
+      "path": "skills/e2e-testing-framework/SKILL.md"
+    },
+    {
       "id": "e2e-testing-patterns",
       "name": "e2e-testing-patterns",
       "description": "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishing testing standards.",
@@ -2578,6 +3969,32 @@
         "enable"
       ],
       "path": "skills/e2e-testing-patterns/SKILL.md"
+    },
+    {
+      "id": "edge-case-analysis",
+      "name": "edge-case-analysis",
+      "description": "Identify and reason about edge cases for features and code changes. Use when designing or reviewing robustness.",
+      "category": "engineering",
+      "tags": [
+        "edge",
+        "case",
+        "analysis"
+      ],
+      "triggers": [
+        "edge",
+        "case",
+        "analysis",
+        "identify",
+        "reason",
+        "about",
+        "cases",
+        "features",
+        "code",
+        "changes",
+        "designing",
+        "reviewing"
+      ],
+      "path": "skills/edge-case-analysis/SKILL.md"
     },
     {
       "id": "elixir-pro",
@@ -2654,6 +4071,31 @@
       "path": "skills/employment-contract-templates/SKILL.md"
     },
     {
+      "id": "engineering-principles",
+      "name": "engineering-principles",
+      "description": "Apply DRY, KISS, YAGNI, and separation of concerns. Use when reviewing code quality and architecture decisions.",
+      "category": "architecture",
+      "tags": [
+        "engineering",
+        "principles"
+      ],
+      "triggers": [
+        "engineering",
+        "principles",
+        "apply",
+        "dry",
+        "kiss",
+        "yagni",
+        "separation",
+        "concerns",
+        "reviewing",
+        "code",
+        "quality",
+        "architecture"
+      ],
+      "path": "skills/engineering-principles/SKILL.md"
+    },
+    {
       "id": "error-debugging-error-analysis",
       "name": "error-debugging-error-analysis",
       "description": "You are an expert error analysis specialist with deep expertise in debugging distributed systems, analyzing production incidents, and implementing comprehensive observability solutions.",
@@ -2707,7 +4149,7 @@
       "id": "error-debugging-multi-agent-review",
       "name": "error-debugging-multi-agent-review",
       "description": "Use when working with error debugging multi agent review",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "error",
         "debugging",
@@ -2804,7 +4246,7 @@
       "id": "error-diagnostics-smart-debug",
       "name": "error-diagnostics-smart-debug",
       "description": "Use when working with error diagnostics smart debug",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "error",
         "diagnostics",
@@ -2843,6 +4285,31 @@
         "applications"
       ],
       "path": "skills/error-handling-patterns/SKILL.md"
+    },
+    {
+      "id": "event-driven-architecture",
+      "name": "event-driven-architecture",
+      "description": "Design event-driven systems with producers, consumers, and broker infrastructure. Use when decoupling components via events.",
+      "category": "architecture",
+      "tags": [
+        "event",
+        "driven",
+        "architecture"
+      ],
+      "triggers": [
+        "event",
+        "driven",
+        "architecture",
+        "producers",
+        "consumers",
+        "broker",
+        "infrastructure",
+        "decoupling",
+        "components",
+        "via",
+        "events"
+      ],
+      "path": "skills/event-driven-architecture/SKILL.md"
     },
     {
       "id": "event-sourcing-architect",
@@ -2894,6 +4361,49 @@
       "path": "skills/event-store-design/SKILL.md"
     },
     {
+      "id": "express-development",
+      "name": "express-development",
+      "description": "Build HTTP APIs with Express. Use when developing or reviewing Express, Fastify, or connect-style servers.",
+      "category": "general",
+      "tags": [
+        "express",
+        "development"
+      ],
+      "triggers": [
+        "express",
+        "development",
+        "http",
+        "apis",
+        "developing",
+        "reviewing",
+        "fastify",
+        "connect",
+        "style",
+        "servers"
+      ],
+      "path": "skills/express-development/SKILL.md"
+    },
+    {
+      "id": "fastapi-development",
+      "name": "fastapi-development",
+      "description": "Build high-quality APIs with FastAPI. Use when developing or reviewing FastAPI projects.",
+      "category": "development",
+      "tags": [
+        "fastapi",
+        "development"
+      ],
+      "triggers": [
+        "fastapi",
+        "development",
+        "high",
+        "quality",
+        "apis",
+        "developing",
+        "reviewing"
+      ],
+      "path": "skills/fastapi-development/SKILL.md"
+    },
+    {
       "id": "fastapi-pro",
       "name": "fastapi-pro",
       "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2. Master microservices, WebSockets, and modern Python async patterns. Use PROACTIVELY for FastAPI development, async optimization, or API architecture.",
@@ -2940,6 +4450,53 @@
         "backend"
       ],
       "path": "skills/fastapi-templates/SKILL.md"
+    },
+    {
+      "id": "files-and-media-engineering",
+      "name": "files-and-media-engineering",
+      "description": "Handle file upload, storage, and processing. Use when building uploads, media, or document workflows.",
+      "category": "engineering",
+      "tags": [
+        "files",
+        "media",
+        "engineering"
+      ],
+      "triggers": [
+        "files",
+        "media",
+        "engineering",
+        "handle",
+        "file",
+        "upload",
+        "storage",
+        "processing",
+        "building",
+        "uploads",
+        "document"
+      ],
+      "path": "skills/files-and-media-engineering/SKILL.md"
+    },
+    {
+      "id": "firewall-engineering",
+      "name": "firewall-engineering",
+      "description": "Design firewall rules and network segmentation. Use when controlling traffic flow between services.",
+      "category": "infrastructure",
+      "tags": [
+        "firewall",
+        "engineering"
+      ],
+      "triggers": [
+        "firewall",
+        "engineering",
+        "rules",
+        "network",
+        "segmentation",
+        "controlling",
+        "traffic",
+        "flow",
+        "between"
+      ],
+      "path": "skills/firewall-engineering/SKILL.md"
     },
     {
       "id": "firmware-analyst",
@@ -2991,10 +4548,31 @@
       "path": "skills/flutter-expert/SKILL.md"
     },
     {
+      "id": "forms-validation",
+      "name": "forms-validation",
+      "description": "Build robust forms with validation in the frontend. Use when implementing forms and user input handling.",
+      "category": "development",
+      "tags": [
+        "forms",
+        "validation"
+      ],
+      "triggers": [
+        "forms",
+        "validation",
+        "robust",
+        "frontend",
+        "implementing",
+        "user",
+        "input",
+        "handling"
+      ],
+      "path": "skills/forms-validation/SKILL.md"
+    },
+    {
       "id": "framework-migration-code-migrate",
       "name": "framework-migration-code-migrate",
       "description": "You are a code migration expert specializing in transitioning codebases between frameworks, languages, versions, and platforms. Generate comprehensive migration plans, automated migration scripts, and",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "framework",
         "migration",
@@ -3150,6 +4728,54 @@
       "path": "skills/frontend-mobile-security-xss-scan/SKILL.md"
     },
     {
+      "id": "frontend-performance",
+      "name": "frontend-performance",
+      "description": "Optimize frontend performance. Use when improving load time, rendering, and runtime performance of web apps.",
+      "category": "development",
+      "tags": [
+        "frontend",
+        "performance"
+      ],
+      "triggers": [
+        "frontend",
+        "performance",
+        "optimize",
+        "improving",
+        "load",
+        "time",
+        "rendering",
+        "runtime",
+        "web",
+        "apps"
+      ],
+      "path": "skills/frontend-performance/SKILL.md"
+    },
+    {
+      "id": "frontend-security",
+      "name": "frontend-security",
+      "description": "Secure the frontend against XSS, CSRF, and data leaks. Use when reviewing or hardening client-side code.",
+      "category": "security",
+      "tags": [
+        "frontend",
+        "security"
+      ],
+      "triggers": [
+        "frontend",
+        "security",
+        "secure",
+        "against",
+        "xss",
+        "csrf",
+        "data",
+        "leaks",
+        "reviewing",
+        "hardening",
+        "client",
+        "side"
+      ],
+      "path": "skills/frontend-security/SKILL.md"
+    },
+    {
       "id": "frontend-security-coder",
       "name": "frontend-security-coder",
       "description": "Expert in secure frontend coding practices specializing in XSS prevention, output sanitization, and client-side security patterns. Use PROACTIVELY for frontend security implementations or client-side security code reviews.",
@@ -3176,6 +4802,32 @@
       "path": "skills/frontend-security-coder/SKILL.md"
     },
     {
+      "id": "full-stack-engineer-orchestrator",
+      "name": "full-stack-engineer-orchestrator",
+      "description": "Orchestrate a full-stack implementation across frontend, backend, data, and ops. Use to coordinate the whole build.",
+      "category": "data-ai",
+      "tags": [
+        "full",
+        "stack",
+        "engineer",
+        "orchestrator"
+      ],
+      "triggers": [
+        "full",
+        "stack",
+        "engineer",
+        "orchestrator",
+        "orchestrate",
+        "frontend",
+        "backend",
+        "data",
+        "ops",
+        "coordinate",
+        "whole"
+      ],
+      "path": "skills/full-stack-engineer-orchestrator/SKILL.md"
+    },
+    {
       "id": "full-stack-orchestration-full-stack-feature",
       "name": "full-stack-orchestration-full-stack-feature",
       "description": "Use when working with full stack orchestration full stack feature",
@@ -3192,6 +4844,33 @@
         "working"
       ],
       "path": "skills/full-stack-orchestration-full-stack-feature/SKILL.md"
+    },
+    {
+      "id": "full-stack-security-engineer",
+      "name": "full-stack-security-engineer",
+      "description": "Audit and harden an application across the full stack: web, API, backend, database, and deployment. Use for security reviews and remediation.",
+      "category": "security",
+      "tags": [
+        "full",
+        "stack",
+        "security",
+        "engineer"
+      ],
+      "triggers": [
+        "full",
+        "stack",
+        "security",
+        "engineer",
+        "audit",
+        "harden",
+        "application",
+        "web",
+        "api",
+        "backend",
+        "database",
+        "deployment"
+      ],
+      "path": "skills/full-stack-security-engineer/SKILL.md"
     },
     {
       "id": "gdpr-data-handling",
@@ -3223,7 +4902,7 @@
       "id": "git-advanced-workflows",
       "name": "git-advanced-workflows",
       "description": "Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, or troubleshooting repository issues.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "git",
         "advanced"
@@ -3243,6 +4922,30 @@
         "history"
       ],
       "path": "skills/git-advanced-workflows/SKILL.md"
+    },
+    {
+      "id": "git-history-analysis",
+      "name": "git-history-analysis",
+      "description": "Analyze git history for insights and forensics. Use when tracing when/what changed and why.",
+      "category": "security",
+      "tags": [
+        "git",
+        "history",
+        "analysis"
+      ],
+      "triggers": [
+        "git",
+        "history",
+        "analysis",
+        "analyze",
+        "insights",
+        "forensics",
+        "tracing",
+        "what",
+        "changed",
+        "why"
+      ],
+      "path": "skills/git-history-analysis/SKILL.md"
     },
     {
       "id": "git-pr-workflows-git-workflow",
@@ -3299,7 +5002,7 @@
       "id": "git-pr-workflows-pr-enhance",
       "name": "git-pr-workflows-pr-enhance",
       "description": "You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descriptions, automate review processes, and ensu",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "git",
         "pr",
@@ -3320,6 +5023,44 @@
         "efficient"
       ],
       "path": "skills/git-pr-workflows-pr-enhance/SKILL.md"
+    },
+    {
+      "id": "git-workflow",
+      "name": "git-workflow",
+      "description": "Use Git workflows effectively. Use when planning branching, history, and collaboration.",
+      "category": "workflow",
+      "tags": [
+        "git"
+      ],
+      "triggers": [
+        "git",
+        "effectively",
+        "planning",
+        "branching",
+        "history",
+        "collaboration"
+      ],
+      "path": "skills/git-workflow/SKILL.md"
+    },
+    {
+      "id": "github-actions-engineering",
+      "name": "github-actions-engineering",
+      "description": "Build reliable GitHub Actions workflows. Use when authoring or debugging workflows.",
+      "category": "engineering",
+      "tags": [
+        "github",
+        "actions",
+        "engineering"
+      ],
+      "triggers": [
+        "github",
+        "actions",
+        "engineering",
+        "reliable",
+        "authoring",
+        "debugging"
+      ],
+      "path": "skills/github-actions-engineering/SKILL.md"
     },
     {
       "id": "github-actions-templates",
@@ -3345,6 +5086,28 @@
         "automating"
       ],
       "path": "skills/github-actions-templates/SKILL.md"
+    },
+    {
+      "id": "gitlab-ci-engineering",
+      "name": "gitlab-ci-engineering",
+      "description": "Build reliable GitLab CI pipelines. Use when authoring or debugging .gitlab-ci.yml pipelines.",
+      "category": "infrastructure",
+      "tags": [
+        "gitlab",
+        "ci",
+        "engineering"
+      ],
+      "triggers": [
+        "gitlab",
+        "ci",
+        "engineering",
+        "reliable",
+        "pipelines",
+        "authoring",
+        "debugging",
+        "yml"
+      ],
+      "path": "skills/gitlab-ci-engineering/SKILL.md"
     },
     {
       "id": "gitlab-ci-patterns",
@@ -3519,6 +5282,26 @@
       "path": "skills/graphql-architect/SKILL.md"
     },
     {
+      "id": "graphql-engineering",
+      "name": "graphql-engineering",
+      "description": "Engineer GraphQL APIs. Use when building, reviewing, or evolving a GraphQL service.",
+      "category": "infrastructure",
+      "tags": [
+        "graphql",
+        "engineering"
+      ],
+      "triggers": [
+        "graphql",
+        "engineering",
+        "engineer",
+        "apis",
+        "building",
+        "reviewing",
+        "evolving"
+      ],
+      "path": "skills/graphql-engineering/SKILL.md"
+    },
+    {
       "id": "haskell-pro",
       "name": "haskell-pro",
       "description": "Expert Haskell engineer specializing in advanced type systems, pure functional design, and high-reliability software. Use PROACTIVELY for type-level programming, concurrency, and architecture guidance.",
@@ -3541,6 +5324,28 @@
         "level"
       ],
       "path": "skills/haskell-pro/SKILL.md"
+    },
+    {
+      "id": "health-checks-engineering",
+      "name": "health-checks-engineering",
+      "description": "Design health checks for services. Use when defining readiness/liveness and uptime monitoring.",
+      "category": "infrastructure",
+      "tags": [
+        "health",
+        "checks",
+        "engineering"
+      ],
+      "triggers": [
+        "health",
+        "checks",
+        "engineering",
+        "defining",
+        "readiness",
+        "liveness",
+        "uptime",
+        "monitoring"
+      ],
+      "path": "skills/health-checks-engineering/SKILL.md"
     },
     {
       "id": "helm-chart-scaffolding",
@@ -3566,6 +5371,28 @@
         "creating"
       ],
       "path": "skills/helm-chart-scaffolding/SKILL.md"
+    },
+    {
+      "id": "hexagonal-architecture",
+      "name": "hexagonal-architecture",
+      "description": "Design applications with ports and adapters. Use when the domain must be independent of external systems.",
+      "category": "architecture",
+      "tags": [
+        "hexagonal",
+        "architecture"
+      ],
+      "triggers": [
+        "hexagonal",
+        "architecture",
+        "applications",
+        "ports",
+        "adapters",
+        "domain",
+        "must",
+        "independent",
+        "external"
+      ],
+      "path": "skills/hexagonal-architecture/SKILL.md"
     },
     {
       "id": "hr-pro",
@@ -3668,6 +5495,27 @@
       "path": "skills/hybrid-search-implementation/SKILL.md"
     },
     {
+      "id": "idempotency",
+      "name": "idempotency",
+      "description": "Make operations idempotent and safe to retry. Use when writing mutating endpoints or consumers.",
+      "category": "general",
+      "tags": [
+        "idempotency"
+      ],
+      "triggers": [
+        "idempotency",
+        "operations",
+        "idempotent",
+        "safe",
+        "retry",
+        "writing",
+        "mutating",
+        "endpoints",
+        "consumers"
+      ],
+      "path": "skills/idempotency/SKILL.md"
+    },
+    {
       "id": "incident-responder",
       "name": "incident-responder",
       "description": "Expert SRE incident responder specializing in rapid problem resolution, modern observability, and comprehensive incident management. Masters incident command, blameless post-mortems, error budget management, and system reliability patterns. Handles critical outages, communication strategies, and continuous improvement. Use IMMEDIATELY for production incidents or SRE practices.",
@@ -3691,6 +5539,27 @@
         "post"
       ],
       "path": "skills/incident-responder/SKILL.md"
+    },
+    {
+      "id": "incident-response",
+      "name": "incident-response",
+      "description": "Respond to incidents methodically. Use when an outage or production issue is in progress.",
+      "category": "security",
+      "tags": [
+        "incident",
+        "response"
+      ],
+      "triggers": [
+        "incident",
+        "response",
+        "respond",
+        "incidents",
+        "methodically",
+        "outage",
+        "issue",
+        "progress"
+      ],
+      "path": "skills/incident-response/SKILL.md"
     },
     {
       "id": "incident-response-incident-response",
@@ -3758,6 +5627,49 @@
         "building"
       ],
       "path": "skills/incident-runbook-templates/SKILL.md"
+    },
+    {
+      "id": "infrastructure-security",
+      "name": "infrastructure-security",
+      "description": "Harden cloud and server infrastructure. Use when reviewing or configuring deployment security.",
+      "category": "security",
+      "tags": [
+        "infrastructure",
+        "security"
+      ],
+      "triggers": [
+        "infrastructure",
+        "security",
+        "harden",
+        "cloud",
+        "server",
+        "reviewing",
+        "configuring",
+        "deployment"
+      ],
+      "path": "skills/infrastructure-security/SKILL.md"
+    },
+    {
+      "id": "integration-testing",
+      "name": "integration-testing",
+      "description": "Write integration tests across components. Use when verifying that modules work together.",
+      "category": "testing",
+      "tags": [
+        "integration",
+        "testing"
+      ],
+      "triggers": [
+        "integration",
+        "testing",
+        "write",
+        "tests",
+        "components",
+        "verifying",
+        "modules",
+        "work",
+        "together"
+      ],
+      "path": "skills/integration-testing/SKILL.md"
     },
     {
       "id": "ios-developer",
@@ -3906,6 +5818,27 @@
       "path": "skills/javascript-typescript-typescript-scaffold/SKILL.md"
     },
     {
+      "id": "jest-engineering",
+      "name": "jest-engineering",
+      "description": "Write and configure Jest tests. Use when working on a Jest test suite.",
+      "category": "testing",
+      "tags": [
+        "jest",
+        "engineering"
+      ],
+      "triggers": [
+        "jest",
+        "engineering",
+        "write",
+        "configure",
+        "tests",
+        "working",
+        "test",
+        "suite"
+      ],
+      "path": "skills/jest-engineering/SKILL.md"
+    },
+    {
       "id": "julia-pro",
       "name": "julia-pro",
       "description": "Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. Expert in the Julia ecosystem including package management, scientific computing, and high-performance numerical code. Use PROACTIVELY for Julia development, optimization, or advanced Julia patterns.",
@@ -3928,6 +5861,29 @@
         "scientific"
       ],
       "path": "skills/julia-pro/SKILL.md"
+    },
+    {
+      "id": "jwt-engineering",
+      "name": "jwt-engineering",
+      "description": "Engineer JWTs correctly. Use when issuing or validating JSON Web Tokens.",
+      "category": "engineering",
+      "tags": [
+        "jwt",
+        "engineering"
+      ],
+      "triggers": [
+        "jwt",
+        "engineering",
+        "engineer",
+        "jwts",
+        "correctly",
+        "issuing",
+        "validating",
+        "json",
+        "web",
+        "tokens"
+      ],
+      "path": "skills/jwt-engineering/SKILL.md"
     },
     {
       "id": "k8s-manifest-generator",
@@ -4031,6 +5987,27 @@
       "path": "skills/kubernetes-architect/SKILL.md"
     },
     {
+      "id": "kubernetes-engineering",
+      "name": "kubernetes-engineering",
+      "description": "Operate Kubernetes workloads. Use when designing deployments, services, and cluster resources.",
+      "category": "infrastructure",
+      "tags": [
+        "kubernetes",
+        "engineering"
+      ],
+      "triggers": [
+        "kubernetes",
+        "engineering",
+        "operate",
+        "workloads",
+        "designing",
+        "deployments",
+        "cluster",
+        "resources"
+      ],
+      "path": "skills/kubernetes-engineering/SKILL.md"
+    },
+    {
       "id": "langchain-architecture",
       "name": "langchain-architecture",
       "description": "Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.",
@@ -4059,7 +6036,7 @@
       "id": "legacy-modernizer",
       "name": "legacy-modernizer",
       "description": "Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization. Handles technical debt, dependency updates, and backward compatibility. Use PROACTIVELY for legacy system updates, framework migrations, or technical debt reduction.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "legacy",
         "modernizer"
@@ -4128,6 +6105,27 @@
         "zero"
       ],
       "path": "skills/linkerd-patterns/SKILL.md"
+    },
+    {
+      "id": "linux-administration",
+      "name": "linux-administration",
+      "description": "Administer Linux servers. Use when managing processes, users, disks, and services.",
+      "category": "general",
+      "tags": [
+        "linux",
+        "administration"
+      ],
+      "triggers": [
+        "linux",
+        "administration",
+        "administer",
+        "servers",
+        "managing",
+        "processes",
+        "users",
+        "disks"
+      ],
+      "path": "skills/linux-administration/SKILL.md"
     },
     {
       "id": "llm-application-dev-ai-assistant",
@@ -4234,6 +6232,71 @@
         "ai"
       ],
       "path": "skills/llm-evaluation/SKILL.md"
+    },
+    {
+      "id": "llm-integration",
+      "name": "llm-integration",
+      "description": "Integrate LLMs into applications. Use when calling models from product code.",
+      "category": "data-ai",
+      "tags": [
+        "llm",
+        "integration"
+      ],
+      "triggers": [
+        "llm",
+        "integration",
+        "integrate",
+        "llms",
+        "applications",
+        "calling",
+        "models",
+        "product",
+        "code"
+      ],
+      "path": "skills/llm-integration/SKILL.md"
+    },
+    {
+      "id": "load-testing",
+      "name": "load-testing",
+      "description": "Load and stress test systems. Use when verifying capacity and reliability under traffic.",
+      "category": "testing",
+      "tags": [
+        "load",
+        "testing"
+      ],
+      "triggers": [
+        "load",
+        "testing",
+        "stress",
+        "test",
+        "verifying",
+        "capacity",
+        "reliability",
+        "under",
+        "traffic"
+      ],
+      "path": "skills/load-testing/SKILL.md"
+    },
+    {
+      "id": "logging-engineering",
+      "name": "logging-engineering",
+      "description": "Design structured logging for systems. Use when building or reviewing application log pipelines.",
+      "category": "infrastructure",
+      "tags": [
+        "logging",
+        "engineering"
+      ],
+      "triggers": [
+        "logging",
+        "engineering",
+        "structured",
+        "building",
+        "reviewing",
+        "application",
+        "log",
+        "pipelines"
+      ],
+      "path": "skills/logging-engineering/SKILL.md"
     },
     {
       "id": "machine-learning-ops-ml-pipeline",
@@ -4359,6 +6422,28 @@
       "path": "skills/memory-safety-patterns/SKILL.md"
     },
     {
+      "id": "merge-conflict-resolution",
+      "name": "merge-conflict-resolution",
+      "description": "Resolve merge conflicts safely. Use when a merge or rebase produces conflicts.",
+      "category": "general",
+      "tags": [
+        "merge",
+        "conflict",
+        "resolution"
+      ],
+      "triggers": [
+        "merge",
+        "conflict",
+        "resolution",
+        "resolve",
+        "conflicts",
+        "safely",
+        "rebase",
+        "produces"
+      ],
+      "path": "skills/merge-conflict-resolution/SKILL.md"
+    },
+    {
       "id": "mermaid-expert",
       "name": "mermaid-expert",
       "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and architectures. Masters syntax for all diagram types and styling. Use PROACTIVELY for visual documentation, system diagrams, or process flows.",
@@ -4381,6 +6466,65 @@
         "styling"
       ],
       "path": "skills/mermaid-expert/SKILL.md"
+    },
+    {
+      "id": "metrics-engineering",
+      "name": "metrics-engineering",
+      "description": "Design metrics for systems. Use when defining what to measure and how to alert.",
+      "category": "engineering",
+      "tags": [
+        "metrics",
+        "engineering"
+      ],
+      "triggers": [
+        "metrics",
+        "engineering",
+        "defining",
+        "what",
+        "measure",
+        "how",
+        "alert"
+      ],
+      "path": "skills/metrics-engineering/SKILL.md"
+    },
+    {
+      "id": "mfa-engineering",
+      "name": "mfa-engineering",
+      "description": "Implement multi-factor authentication. Use when adding a second factor to login flows.",
+      "category": "engineering",
+      "tags": [
+        "mfa",
+        "engineering"
+      ],
+      "triggers": [
+        "mfa",
+        "engineering",
+        "multi",
+        "factor",
+        "authentication",
+        "adding",
+        "second",
+        "login",
+        "flows"
+      ],
+      "path": "skills/mfa-engineering/SKILL.md"
+    },
+    {
+      "id": "microservices",
+      "name": "microservices",
+      "description": "Design and manage microservices architectures. Use when splitting a system into independently deployable services.",
+      "category": "architecture",
+      "tags": [
+        "microservices"
+      ],
+      "triggers": [
+        "microservices",
+        "architectures",
+        "splitting",
+        "independently",
+        "deployable"
+      ],
+      "path": "skills/microservices/SKILL.md"
     },
     {
       "id": "microservices-patterns",
@@ -4505,6 +6649,47 @@
       "path": "skills/mlops-engineer/SKILL.md"
     },
     {
+      "id": "mobile-architecture",
+      "name": "mobile-architecture",
+      "description": "Design mobile app architecture. Use when structuring mobile codebases and features.",
+      "category": "development",
+      "tags": [
+        "mobile",
+        "architecture"
+      ],
+      "triggers": [
+        "mobile",
+        "architecture",
+        "app",
+        "structuring",
+        "codebases",
+        "features"
+      ],
+      "path": "skills/mobile-architecture/SKILL.md"
+    },
+    {
+      "id": "mobile-authentication",
+      "name": "mobile-authentication",
+      "description": "Implement secure mobile auth. Use when handling sign-in, tokens, and sessions in apps.",
+      "category": "security",
+      "tags": [
+        "mobile",
+        "authentication"
+      ],
+      "triggers": [
+        "mobile",
+        "authentication",
+        "secure",
+        "auth",
+        "handling",
+        "sign",
+        "tokens",
+        "sessions",
+        "apps"
+      ],
+      "path": "skills/mobile-authentication/SKILL.md"
+    },
+    {
       "id": "mobile-developer",
       "name": "mobile-developer",
       "description": "Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cross-platform development, native integrations, offline sync, and app store optimization. Use PROACTIVELY for mobile features, cross-platform code, or app optimization.",
@@ -4527,6 +6712,47 @@
         "development"
       ],
       "path": "skills/mobile-developer/SKILL.md"
+    },
+    {
+      "id": "mobile-performance",
+      "name": "mobile-performance",
+      "description": "Optimize mobile app performance. Use when improving startup, rendering, and memory.",
+      "category": "development",
+      "tags": [
+        "mobile",
+        "performance"
+      ],
+      "triggers": [
+        "mobile",
+        "performance",
+        "optimize",
+        "app",
+        "improving",
+        "startup",
+        "rendering",
+        "memory"
+      ],
+      "path": "skills/mobile-performance/SKILL.md"
+    },
+    {
+      "id": "mobile-security",
+      "name": "mobile-security",
+      "description": "Harden mobile apps. Use when auditing or securing mobile clients.",
+      "category": "security",
+      "tags": [
+        "mobile",
+        "security"
+      ],
+      "triggers": [
+        "mobile",
+        "security",
+        "harden",
+        "apps",
+        "auditing",
+        "securing",
+        "clients"
+      ],
+      "path": "skills/mobile-security/SKILL.md"
     },
     {
       "id": "mobile-security-coder",
@@ -4578,6 +6804,27 @@
         "functions"
       ],
       "path": "skills/modern-javascript-patterns/SKILL.md"
+    },
+    {
+      "id": "modular-monolith",
+      "name": "modular-monolith",
+      "description": "Design and refactor toward a modular monolith. Use when you need order without microservice complexity.",
+      "category": "engineering",
+      "tags": [
+        "modular",
+        "monolith"
+      ],
+      "triggers": [
+        "modular",
+        "monolith",
+        "refactor",
+        "toward",
+        "order",
+        "without",
+        "microservice",
+        "complexity"
+      ],
+      "path": "skills/modular-monolith/SKILL.md"
     },
     {
       "id": "monorepo-architect",
@@ -4705,6 +6952,69 @@
       "path": "skills/multi-platform-apps-multi-platform/SKILL.md"
     },
     {
+      "id": "multi-tenant-auth",
+      "name": "multi-tenant-auth",
+      "description": "Implement tenant isolation in authentication. Use when building multi-tenant SaaS auth.",
+      "category": "security",
+      "tags": [
+        "multi",
+        "tenant",
+        "auth"
+      ],
+      "triggers": [
+        "multi",
+        "tenant",
+        "auth",
+        "isolation",
+        "authentication",
+        "building",
+        "saas"
+      ],
+      "path": "skills/multi-tenant-auth/SKILL.md"
+    },
+    {
+      "id": "mutation-testing",
+      "name": "mutation-testing",
+      "description": "Use mutation testing to expose weak tests. Use when improving test strength beyond coverage.",
+      "category": "testing",
+      "tags": [
+        "mutation",
+        "testing"
+      ],
+      "triggers": [
+        "mutation",
+        "testing",
+        "expose",
+        "weak",
+        "tests",
+        "improving",
+        "test",
+        "strength",
+        "beyond",
+        "coverage"
+      ],
+      "path": "skills/mutation-testing/SKILL.md"
+    },
+    {
+      "id": "nestjs-development",
+      "name": "nestjs-development",
+      "description": "Build maintainable applications with NestJS. Use when developing or reviewing NestJS projects.",
+      "category": "general",
+      "tags": [
+        "nestjs",
+        "development"
+      ],
+      "triggers": [
+        "nestjs",
+        "development",
+        "maintainable",
+        "applications",
+        "developing",
+        "reviewing"
+      ],
+      "path": "skills/nestjs-development/SKILL.md"
+    },
+    {
       "id": "network-engineer",
       "name": "network-engineer",
       "description": "Expert network engineer specializing in modern cloud networking, security architectures, and performance optimization. Masters multi-cloud connectivity, service mesh, zero-trust networking, SSL/TLS, global load balancing, and advanced troubleshooting. Handles CDN optimization, network automation, and compliance. Use PROACTIVELY for network design, connectivity issues, or performance optimization.",
@@ -4755,6 +7065,148 @@
       "path": "skills/nextjs-app-router-patterns/SKILL.md"
     },
     {
+      "id": "nextjs-authentication",
+      "name": "nextjs-authentication",
+      "description": "Add authentication to Next.js apps. Use when wiring a session/login into App Router.",
+      "category": "development",
+      "tags": [
+        "nextjs",
+        "authentication"
+      ],
+      "triggers": [
+        "nextjs",
+        "authentication",
+        "add",
+        "next",
+        "js",
+        "apps",
+        "wiring",
+        "session",
+        "login",
+        "app",
+        "router"
+      ],
+      "path": "skills/nextjs-authentication/SKILL.md"
+    },
+    {
+      "id": "nextjs-development",
+      "name": "nextjs-development",
+      "description": "Build applications with the Next.js App Router. Use when developing, reviewing, or migrating Next.js apps.",
+      "category": "development",
+      "tags": [
+        "nextjs",
+        "development"
+      ],
+      "triggers": [
+        "nextjs",
+        "development",
+        "applications",
+        "next",
+        "js",
+        "app",
+        "router",
+        "developing",
+        "reviewing",
+        "migrating",
+        "apps"
+      ],
+      "path": "skills/nextjs-development/SKILL.md"
+    },
+    {
+      "id": "nextjs-middleware",
+      "name": "nextjs-middleware",
+      "description": "Use Next.js middleware for lightweight edge routing and guards. Use when protecting routes at the edge.",
+      "category": "development",
+      "tags": [
+        "nextjs",
+        "middleware"
+      ],
+      "triggers": [
+        "nextjs",
+        "middleware",
+        "next",
+        "js",
+        "lightweight",
+        "edge",
+        "routing",
+        "guards",
+        "protecting",
+        "routes"
+      ],
+      "path": "skills/nextjs-middleware/SKILL.md"
+    },
+    {
+      "id": "nextjs-performance",
+      "name": "nextjs-performance",
+      "description": "Optimize Next.js performance. Use when improving load, caching, and runtime in Next apps.",
+      "category": "development",
+      "tags": [
+        "nextjs",
+        "performance"
+      ],
+      "triggers": [
+        "nextjs",
+        "performance",
+        "optimize",
+        "next",
+        "js",
+        "improving",
+        "load",
+        "caching",
+        "runtime",
+        "apps"
+      ],
+      "path": "skills/nextjs-performance/SKILL.md"
+    },
+    {
+      "id": "nextjs-server-actions",
+      "name": "nextjs-server-actions",
+      "description": "Implement mutations with Server Actions. Use when handling form submissions and data changes.",
+      "category": "data-ai",
+      "tags": [
+        "nextjs",
+        "server",
+        "actions"
+      ],
+      "triggers": [
+        "nextjs",
+        "server",
+        "actions",
+        "mutations",
+        "handling",
+        "form",
+        "submissions",
+        "data",
+        "changes"
+      ],
+      "path": "skills/nextjs-server-actions/SKILL.md"
+    },
+    {
+      "id": "nextjs-server-components",
+      "name": "nextjs-server-components",
+      "description": "Design Server vs Client Components in Next.js. Use when deciding where to render and fetch.",
+      "category": "development",
+      "tags": [
+        "nextjs",
+        "server",
+        "components"
+      ],
+      "triggers": [
+        "nextjs",
+        "server",
+        "components",
+        "vs",
+        "client",
+        "next",
+        "js",
+        "deciding",
+        "where",
+        "render",
+        "fetch"
+      ],
+      "path": "skills/nextjs-server-components/SKILL.md"
+    },
+    {
       "id": "nft-standards",
       "name": "nft-standards",
       "description": "Implement NFT standards (ERC-721, ERC-1155) with proper metadata handling, minting strategies, and marketplace integration. Use when creating NFT contracts, building NFT marketplaces, or implementing digital asset systems.",
@@ -4778,6 +7230,30 @@
         "creating"
       ],
       "path": "skills/nft-standards/SKILL.md"
+    },
+    {
+      "id": "nginx-engineering",
+      "name": "nginx-engineering",
+      "description": "Configure Nginx for serving, proxying, and TLS. Use when tuning a reverse proxy or web server.",
+      "category": "engineering",
+      "tags": [
+        "nginx",
+        "engineering"
+      ],
+      "triggers": [
+        "nginx",
+        "engineering",
+        "configure",
+        "serving",
+        "proxying",
+        "tls",
+        "tuning",
+        "reverse",
+        "proxy",
+        "web",
+        "server"
+      ],
+      "path": "skills/nginx-engineering/SKILL.md"
     },
     {
       "id": "nodejs-backend-patterns",
@@ -4828,6 +7304,26 @@
         "caching"
       ],
       "path": "skills/nx-workspace-patterns/SKILL.md"
+    },
+    {
+      "id": "oauth2-engineering",
+      "name": "oauth2-engineering",
+      "description": "Implement OAuth 2.0 responsibly. Use when integrating or providing OAuth2 flows.",
+      "category": "engineering",
+      "tags": [
+        "oauth2",
+        "engineering"
+      ],
+      "triggers": [
+        "oauth2",
+        "engineering",
+        "oauth",
+        "responsibly",
+        "integrating",
+        "providing",
+        "flows"
+      ],
+      "path": "skills/oauth2-engineering/SKILL.md"
     },
     {
       "id": "observability-engineer",
@@ -4908,6 +7404,28 @@
       "path": "skills/observability-monitoring-slo-implement/SKILL.md"
     },
     {
+      "id": "offline-first-development",
+      "name": "offline-first-development",
+      "description": "Build apps that work offline. Use when designing offline caching and sync.",
+      "category": "general",
+      "tags": [
+        "offline",
+        "first",
+        "development"
+      ],
+      "triggers": [
+        "offline",
+        "first",
+        "development",
+        "apps",
+        "work",
+        "designing",
+        "caching",
+        "sync"
+      ],
+      "path": "skills/offline-first-development/SKILL.md"
+    },
+    {
       "id": "on-call-handoff-patterns",
       "name": "on-call-handoff-patterns",
       "description": "Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use when transitioning on-call responsibilities, documenting shift summaries, or improving on-call processes.",
@@ -4934,6 +7452,29 @@
       "path": "skills/on-call-handoff-patterns/SKILL.md"
     },
     {
+      "id": "openapi-engineering",
+      "name": "openapi-engineering",
+      "description": "Author and maintain OpenAPI specs. Use when design-first API documentation or spec generation.",
+      "category": "development",
+      "tags": [
+        "openapi",
+        "engineering"
+      ],
+      "triggers": [
+        "openapi",
+        "engineering",
+        "author",
+        "maintain",
+        "specs",
+        "first",
+        "api",
+        "documentation",
+        "spec",
+        "generation"
+      ],
+      "path": "skills/openapi-engineering/SKILL.md"
+    },
+    {
       "id": "openapi-spec-generation",
       "name": "openapi-spec-generation",
       "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.",
@@ -4958,6 +7499,110 @@
         "api"
       ],
       "path": "skills/openapi-spec-generation/SKILL.md"
+    },
+    {
+      "id": "openid-connect",
+      "name": "openid-connect",
+      "description": "Implement OpenID Connect identity. Use when your app needs standardized identity, profile, or SSO.",
+      "category": "general",
+      "tags": [
+        "openid",
+        "connect"
+      ],
+      "triggers": [
+        "openid",
+        "connect",
+        "identity",
+        "app",
+        "standardized",
+        "profile",
+        "sso"
+      ],
+      "path": "skills/openid-connect/SKILL.md"
+    },
+    {
+      "id": "opentelemetry-engineering",
+      "name": "opentelemetry-engineering",
+      "description": "Apply OpenTelemetry across stacks. Use when instrumenting applications consistently.",
+      "category": "engineering",
+      "tags": [
+        "opentelemetry",
+        "engineering"
+      ],
+      "triggers": [
+        "opentelemetry",
+        "engineering",
+        "apply",
+        "stacks",
+        "instrumenting",
+        "applications",
+        "consistently"
+      ],
+      "path": "skills/opentelemetry-engineering/SKILL.md"
+    },
+    {
+      "id": "optimistic-ui",
+      "name": "optimistic-ui",
+      "description": "Implement optimistic UI updates safely. Use when you want instant feedback for actions.",
+      "category": "general",
+      "tags": [
+        "optimistic",
+        "ui"
+      ],
+      "triggers": [
+        "optimistic",
+        "ui",
+        "updates",
+        "safely",
+        "want",
+        "instant",
+        "feedback",
+        "actions"
+      ],
+      "path": "skills/optimistic-ui/SKILL.md"
+    },
+    {
+      "id": "password-security",
+      "name": "password-security",
+      "description": "Handle passwords securely. Use when storing, checking, or resetting passwords.",
+      "category": "security",
+      "tags": [
+        "password",
+        "security"
+      ],
+      "triggers": [
+        "password",
+        "security",
+        "handle",
+        "passwords",
+        "securely",
+        "storing",
+        "checking",
+        "resetting"
+      ],
+      "path": "skills/password-security/SKILL.md"
+    },
+    {
+      "id": "payment-engineering",
+      "name": "payment-engineering",
+      "description": "Build secure and correct payment flows. Use when designing checkout, reconciliation, and money flows.",
+      "category": "engineering",
+      "tags": [
+        "payment",
+        "engineering"
+      ],
+      "triggers": [
+        "payment",
+        "engineering",
+        "secure",
+        "correct",
+        "flows",
+        "designing",
+        "checkout",
+        "reconciliation",
+        "money"
+      ],
+      "path": "skills/payment-engineering/SKILL.md"
     },
     {
       "id": "payment-integration",
@@ -5033,6 +7678,49 @@
         "achieving"
       ],
       "path": "skills/pci-compliance/SKILL.md"
+    },
+    {
+      "id": "performance-analysis",
+      "name": "performance-analysis",
+      "description": "Analyze performance from evidence. Use when profiling or investigating slowness.",
+      "category": "general",
+      "tags": [
+        "performance",
+        "analysis"
+      ],
+      "triggers": [
+        "performance",
+        "analysis",
+        "analyze",
+        "evidence",
+        "profiling",
+        "investigating",
+        "slowness"
+      ],
+      "path": "skills/performance-analysis/SKILL.md"
+    },
+    {
+      "id": "performance-auditor",
+      "name": "performance-auditor",
+      "description": "Run an end-to-end performance audit. Use when diagnosing overall system slowness or setting perf targets.",
+      "category": "general",
+      "tags": [
+        "performance",
+        "auditor"
+      ],
+      "triggers": [
+        "performance",
+        "auditor",
+        "run",
+        "audit",
+        "diagnosing",
+        "overall",
+        "slowness",
+        "setting",
+        "perf",
+        "targets"
+      ],
+      "path": "skills/performance-auditor/SKILL.md"
     },
     {
       "id": "performance-engineer",
@@ -5128,6 +7816,27 @@
       "path": "skills/php-pro/SKILL.md"
     },
     {
+      "id": "playwright-engineering",
+      "name": "playwright-engineering",
+      "description": "Build robust E2E suites with Playwright. Use when automating browser tests.",
+      "category": "testing",
+      "tags": [
+        "playwright",
+        "engineering"
+      ],
+      "triggers": [
+        "playwright",
+        "engineering",
+        "robust",
+        "e2e",
+        "suites",
+        "automating",
+        "browser",
+        "tests"
+      ],
+      "path": "skills/playwright-engineering/SKILL.md"
+    },
+    {
       "id": "posix-shell-pro",
       "name": "posix-shell-pro",
       "description": "Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-compliant shell (dash, ash, sh, bash --posix).",
@@ -5198,6 +7907,27 @@
         "items"
       ],
       "path": "skills/postmortem-writing/SKILL.md"
+    },
+    {
+      "id": "product-engineering",
+      "name": "product-engineering",
+      "description": "Engineer software with product thinking. Use when building features that need product awareness.",
+      "category": "business",
+      "tags": [
+        "product",
+        "engineering"
+      ],
+      "triggers": [
+        "product",
+        "engineering",
+        "engineer",
+        "software",
+        "thinking",
+        "building",
+        "features",
+        "awareness"
+      ],
+      "path": "skills/product-engineering/SKILL.md"
     },
     {
       "id": "projection-patterns",
@@ -5322,6 +8052,46 @@
         "traffic"
       ],
       "path": "skills/protocol-reverse-engineering/SKILL.md"
+    },
+    {
+      "id": "push-notifications",
+      "name": "push-notifications",
+      "description": "Implement reliable push notifications. Use when sending or handling notifications in apps.",
+      "category": "general",
+      "tags": [
+        "push",
+        "notifications"
+      ],
+      "triggers": [
+        "push",
+        "notifications",
+        "reliable",
+        "sending",
+        "handling",
+        "apps"
+      ],
+      "path": "skills/push-notifications/SKILL.md"
+    },
+    {
+      "id": "pytest-engineering",
+      "name": "pytest-engineering",
+      "description": "Write and configure pytest suites. Use when working on Python test projects.",
+      "category": "development",
+      "tags": [
+        "pytest",
+        "engineering"
+      ],
+      "triggers": [
+        "pytest",
+        "engineering",
+        "write",
+        "configure",
+        "suites",
+        "working",
+        "python",
+        "test"
+      ],
+      "path": "skills/pytest-engineering/SKILL.md"
     },
     {
       "id": "python-development-python-scaffold",
@@ -5472,6 +8242,70 @@
       "path": "skills/quant-analyst/SKILL.md"
     },
     {
+      "id": "query-optimization",
+      "name": "query-optimization",
+      "description": "Optimize database queries. Use when analyzing or fixing slow queries.",
+      "category": "data-ai",
+      "tags": [
+        "query",
+        "optimization"
+      ],
+      "triggers": [
+        "query",
+        "optimization",
+        "optimize",
+        "database",
+        "queries",
+        "analyzing",
+        "fixing",
+        "slow"
+      ],
+      "path": "skills/query-optimization/SKILL.md"
+    },
+    {
+      "id": "queues-and-workers",
+      "name": "queues-and-workers",
+      "description": "Design message queues and worker pools. Use when building queue-based async systems.",
+      "category": "general",
+      "tags": [
+        "queues",
+        "workers"
+      ],
+      "triggers": [
+        "queues",
+        "workers",
+        "message",
+        "worker",
+        "pools",
+        "building",
+        "queue",
+        "async"
+      ],
+      "path": "skills/queues-and-workers/SKILL.md"
+    },
+    {
+      "id": "rag-engineering",
+      "name": "rag-engineering",
+      "description": "Build retrieval-augmented generation pipelines. Use when grounding LLMs in your data.",
+      "category": "data-ai",
+      "tags": [
+        "rag",
+        "engineering"
+      ],
+      "triggers": [
+        "rag",
+        "engineering",
+        "retrieval",
+        "augmented",
+        "generation",
+        "pipelines",
+        "grounding",
+        "llms",
+        "data"
+      ],
+      "path": "skills/rag-engineering/SKILL.md"
+    },
+    {
       "id": "rag-implementation",
       "name": "rag-implementation",
       "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.",
@@ -5494,6 +8328,70 @@
         "knowledge"
       ],
       "path": "skills/rag-implementation/SKILL.md"
+    },
+    {
+      "id": "rate-limiting",
+      "name": "rate-limiting",
+      "description": "Implement rate limiting for APIs and services. Use when protecting resources from abuse or overload.",
+      "category": "general",
+      "tags": [
+        "rate",
+        "limiting"
+      ],
+      "triggers": [
+        "rate",
+        "limiting",
+        "apis",
+        "protecting",
+        "resources",
+        "abuse",
+        "overload"
+      ],
+      "path": "skills/rate-limiting/SKILL.md"
+    },
+    {
+      "id": "rbac-engineering",
+      "name": "rbac-engineering",
+      "description": "Design and implement Role-Based Access Control. Use when modeling permissions via roles.",
+      "category": "engineering",
+      "tags": [
+        "rbac",
+        "engineering"
+      ],
+      "triggers": [
+        "rbac",
+        "engineering",
+        "role",
+        "access",
+        "control",
+        "modeling",
+        "permissions",
+        "via",
+        "roles"
+      ],
+      "path": "skills/rbac-engineering/SKILL.md"
+    },
+    {
+      "id": "react-development",
+      "name": "react-development",
+      "description": "Build React applications with modern patterns: hooks, composition, and performance. Use when developing or reviewing React code.",
+      "category": "development",
+      "tags": [
+        "react",
+        "development"
+      ],
+      "triggers": [
+        "react",
+        "development",
+        "applications",
+        "hooks",
+        "composition",
+        "performance",
+        "developing",
+        "reviewing",
+        "code"
+      ],
+      "path": "skills/react-development/SKILL.md"
     },
     {
       "id": "react-modernization",
@@ -5572,6 +8470,27 @@
       "path": "skills/react-state-management/SKILL.md"
     },
     {
+      "id": "readme-engineering",
+      "name": "readme-engineering",
+      "description": "Write effective READMEs. Use when creating or improving project documentation.",
+      "category": "engineering",
+      "tags": [
+        "readme",
+        "engineering"
+      ],
+      "triggers": [
+        "readme",
+        "engineering",
+        "write",
+        "effective",
+        "readmes",
+        "creating",
+        "improving",
+        "documentation"
+      ],
+      "path": "skills/readme-engineering/SKILL.md"
+    },
+    {
       "id": "reference-builder",
       "name": "reference-builder",
       "description": "Creates exhaustive technical references and API documentation. Generates comprehensive parameter listings, configuration guides, and searchable reference materials. Use PROACTIVELY for API docs, configuration references, or complete technical specifications.",
@@ -5595,6 +8514,92 @@
         "configuration"
       ],
       "path": "skills/reference-builder/SKILL.md"
+    },
+    {
+      "id": "release-management",
+      "name": "release-management",
+      "description": "Manage software releases. Use when planning and cutting releases.",
+      "category": "general",
+      "tags": [
+        "release",
+        "management"
+      ],
+      "triggers": [
+        "release",
+        "management",
+        "software",
+        "releases",
+        "planning",
+        "cutting"
+      ],
+      "path": "skills/release-management/SKILL.md"
+    },
+    {
+      "id": "repository-pattern",
+      "name": "repository-pattern",
+      "description": "Abstract data access behind the repository pattern. Use when isolating persistence from domain logic.",
+      "category": "data-ai",
+      "tags": [
+        "repository"
+      ],
+      "triggers": [
+        "repository",
+        "abstract",
+        "data",
+        "access",
+        "behind",
+        "isolating",
+        "persistence",
+        "domain",
+        "logic"
+      ],
+      "path": "skills/repository-pattern/SKILL.md"
+    },
+    {
+      "id": "requirements-analysis",
+      "name": "requirements-analysis",
+      "description": "Analyze and structure software requirements for completeness. Use when writing or reviewing requirements, PRDs, or specifications.",
+      "category": "engineering",
+      "tags": [
+        "requirements",
+        "analysis"
+      ],
+      "triggers": [
+        "requirements",
+        "analysis",
+        "analyze",
+        "structure",
+        "software",
+        "completeness",
+        "writing",
+        "reviewing",
+        "prds",
+        "specifications"
+      ],
+      "path": "skills/requirements-analysis/SKILL.md"
+    },
+    {
+      "id": "requirements-validation",
+      "name": "requirements-validation",
+      "description": "Validate that requirements are correct and aligned with business goals. Use before committing to a spec.",
+      "category": "business",
+      "tags": [
+        "requirements",
+        "validation"
+      ],
+      "triggers": [
+        "requirements",
+        "validation",
+        "validate",
+        "correct",
+        "aligned",
+        "business",
+        "goals",
+        "before",
+        "committing",
+        "spec"
+      ],
+      "path": "skills/requirements-validation/SKILL.md"
     },
     {
       "id": "reverse-engineer",
@@ -5670,6 +8675,26 @@
         "analysis"
       ],
       "path": "skills/risk-metrics-calculation/SKILL.md"
+    },
+    {
+      "id": "routing-frontend",
+      "name": "routing-frontend",
+      "description": "Design and implement frontend routing. Use when planning routes, guards, and navigation in SPAs.",
+      "category": "development",
+      "tags": [
+        "routing",
+        "frontend"
+      ],
+      "triggers": [
+        "routing",
+        "frontend",
+        "planning",
+        "routes",
+        "guards",
+        "navigation",
+        "spas"
+      ],
+      "path": "skills/routing-frontend/SKILL.md"
     },
     {
       "id": "ruby-pro",
@@ -5868,6 +8893,24 @@
       "path": "skills/screen-reader-testing/SKILL.md"
     },
     {
+      "id": "search-engineering",
+      "name": "search-engineering",
+      "description": "Design search features. Use when building search into an application.",
+      "category": "engineering",
+      "tags": [
+        "search",
+        "engineering"
+      ],
+      "triggers": [
+        "search",
+        "engineering",
+        "features",
+        "building",
+        "application"
+      ],
+      "path": "skills/search-engineering/SKILL.md"
+    },
+    {
       "id": "search-specialist",
       "name": "search-specialist",
       "description": "Expert web researcher using advanced search techniques and synthesis. Masters search operators, result filtering, and multi-source verification. Handles competitive analysis and fact-checking. Use PROACTIVELY for deep research, information gathering, or trend analysis.",
@@ -5892,6 +8935,28 @@
       "path": "skills/search-specialist/SKILL.md"
     },
     {
+      "id": "secret-management",
+      "name": "secret-management",
+      "description": "Keep secrets out of code and logs. Use when auditing credential handling.",
+      "category": "security",
+      "tags": [
+        "secret",
+        "management"
+      ],
+      "triggers": [
+        "secret",
+        "management",
+        "keep",
+        "secrets",
+        "code",
+        "logs",
+        "auditing",
+        "credential",
+        "handling"
+      ],
+      "path": "skills/secret-management/SKILL.md"
+    },
+    {
       "id": "secrets-management",
       "name": "secrets-management",
       "description": "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments.",
@@ -5914,6 +8979,29 @@
         "handling"
       ],
       "path": "skills/secrets-management/SKILL.md"
+    },
+    {
+      "id": "security-audit-engineering",
+      "name": "security-audit-engineering",
+      "description": "Run a structured application security audit. Use when planning or executing a security assessment.",
+      "category": "security",
+      "tags": [
+        "security",
+        "audit",
+        "engineering"
+      ],
+      "triggers": [
+        "security",
+        "audit",
+        "engineering",
+        "run",
+        "structured",
+        "application",
+        "planning",
+        "executing",
+        "assessment"
+      ],
+      "path": "skills/security-audit-engineering/SKILL.md"
     },
     {
       "id": "security-auditor",
@@ -6067,6 +9155,31 @@
         "frameworks"
       ],
       "path": "skills/security-scanning-security-sast/SKILL.md"
+    },
+    {
+      "id": "senior-code-reviewer",
+      "name": "senior-code-reviewer",
+      "description": "Review code like a senior engineer. Use when reviewing PRs for correctness, quality, and risks.",
+      "category": "engineering",
+      "tags": [
+        "senior",
+        "code",
+        "reviewer"
+      ],
+      "triggers": [
+        "senior",
+        "code",
+        "reviewer",
+        "review",
+        "like",
+        "engineer",
+        "reviewing",
+        "prs",
+        "correctness",
+        "quality",
+        "risks"
+      ],
+      "path": "skills/senior-code-reviewer/SKILL.md"
     },
     {
       "id": "seo-authority-builder",
@@ -6328,6 +9441,53 @@
       "path": "skills/seo-structure-architect/SKILL.md"
     },
     {
+      "id": "server-state-fetching",
+      "name": "server-state-fetching",
+      "description": "Fetch and cache server data in the frontend. Use when implementing data fetching and mutations in web apps.",
+      "category": "data-ai",
+      "tags": [
+        "server",
+        "state",
+        "fetching"
+      ],
+      "triggers": [
+        "server",
+        "state",
+        "fetching",
+        "fetch",
+        "cache",
+        "data",
+        "frontend",
+        "implementing",
+        "mutations",
+        "web",
+        "apps"
+      ],
+      "path": "skills/server-state-fetching/SKILL.md"
+    },
+    {
+      "id": "service-boundaries",
+      "name": "service-boundaries",
+      "description": "Define correct service boundaries. Use when deciding what belongs in each service or module.",
+      "category": "infrastructure",
+      "tags": [
+        "service",
+        "boundaries"
+      ],
+      "triggers": [
+        "service",
+        "boundaries",
+        "define",
+        "correct",
+        "deciding",
+        "what",
+        "belongs",
+        "each",
+        "module"
+      ],
+      "path": "skills/service-boundaries/SKILL.md"
+    },
+    {
       "id": "service-mesh-expert",
       "name": "service-mesh-expert",
       "description": "Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observability integration, and multi-cluster mesh con",
@@ -6379,10 +9539,32 @@
       "path": "skills/service-mesh-observability/SKILL.md"
     },
     {
+      "id": "session-management",
+      "name": "session-management",
+      "description": "Manage server-side sessions securely. Use when implementing or hardening session state.",
+      "category": "general",
+      "tags": [
+        "session",
+        "management"
+      ],
+      "triggers": [
+        "session",
+        "management",
+        "server",
+        "side",
+        "sessions",
+        "securely",
+        "implementing",
+        "hardening",
+        "state"
+      ],
+      "path": "skills/session-management/SKILL.md"
+    },
+    {
       "id": "shellcheck-configuration",
       "name": "shellcheck-configuration",
       "description": "Master ShellCheck static analysis configuration and usage for shell script quality. Use when setting up linting infrastructure, fixing code issues, or ensuring script portability.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "shellcheck",
         "configuration"
@@ -6453,6 +9635,51 @@
       "path": "skills/slo-implementation/SKILL.md"
     },
     {
+      "id": "software-architecture",
+      "name": "software-architecture",
+      "description": "Design the overall architecture of a software system. Use when planning structure, boundaries, and key technical decisions.",
+      "category": "architecture",
+      "tags": [
+        "software",
+        "architecture"
+      ],
+      "triggers": [
+        "software",
+        "architecture",
+        "overall",
+        "planning",
+        "structure",
+        "boundaries",
+        "key",
+        "technical",
+        "decisions"
+      ],
+      "path": "skills/software-architecture/SKILL.md"
+    },
+    {
+      "id": "solid-principles",
+      "name": "solid-principles",
+      "description": "Apply SOLID principles for maintainable object-oriented design. Use when reviewing or designing class structure.",
+      "category": "engineering",
+      "tags": [
+        "solid",
+        "principles"
+      ],
+      "triggers": [
+        "solid",
+        "principles",
+        "apply",
+        "maintainable",
+        "object",
+        "oriented",
+        "reviewing",
+        "designing",
+        "class",
+        "structure"
+      ],
+      "path": "skills/solid-principles/SKILL.md"
+    },
+    {
       "id": "solidity-security",
       "name": "solidity-security",
       "description": "Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementing security measures for blockchain applications.",
@@ -6503,6 +9730,30 @@
       "path": "skills/spark-optimization/SKILL.md"
     },
     {
+      "id": "spring-boot-development",
+      "name": "spring-boot-development",
+      "description": "Develop REST services with Spring Boot. Use when building or reviewing Java/Kotlin Spring apps.",
+      "category": "development",
+      "tags": [
+        "spring",
+        "boot",
+        "development"
+      ],
+      "triggers": [
+        "spring",
+        "boot",
+        "development",
+        "develop",
+        "rest",
+        "building",
+        "reviewing",
+        "java",
+        "kotlin",
+        "apps"
+      ],
+      "path": "skills/spring-boot-development/SKILL.md"
+    },
+    {
       "id": "sql-optimization-patterns",
       "name": "sql-optimization-patterns",
       "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.",
@@ -6550,6 +9801,117 @@
         "tuning"
       ],
       "path": "skills/sql-pro/SKILL.md"
+    },
+    {
+      "id": "sql-query-development",
+      "name": "sql-query-development",
+      "description": "Write correct and efficient SQL. Use when authoring queries, views, or stored procedures.",
+      "category": "data-ai",
+      "tags": [
+        "sql",
+        "query",
+        "development"
+      ],
+      "triggers": [
+        "sql",
+        "query",
+        "development",
+        "write",
+        "correct",
+        "efficient",
+        "authoring",
+        "queries",
+        "views",
+        "stored",
+        "procedures"
+      ],
+      "path": "skills/sql-query-development/SKILL.md"
+    },
+    {
+      "id": "sse-engineering",
+      "name": "sse-engineering",
+      "description": "Implement Server-Sent Events. Use when streaming one-way updates from server to client.",
+      "category": "engineering",
+      "tags": [
+        "sse",
+        "engineering"
+      ],
+      "triggers": [
+        "sse",
+        "engineering",
+        "server",
+        "sent",
+        "events",
+        "streaming",
+        "one",
+        "way",
+        "updates",
+        "client"
+      ],
+      "path": "skills/sse-engineering/SKILL.md"
+    },
+    {
+      "id": "ssg-patterns",
+      "name": "ssg-patterns",
+      "description": "Implement static site generation. Use when building content-driven sites that can be prebuilt.",
+      "category": "architecture",
+      "tags": [
+        "ssg"
+      ],
+      "triggers": [
+        "ssg",
+        "static",
+        "site",
+        "generation",
+        "building",
+        "content",
+        "driven",
+        "sites",
+        "prebuilt"
+      ],
+      "path": "skills/ssg-patterns/SKILL.md"
+    },
+    {
+      "id": "ssh-hardening",
+      "name": "ssh-hardening",
+      "description": "Harden SSH access. Use when configuring or reviewing SSH server security.",
+      "category": "security",
+      "tags": [
+        "ssh",
+        "hardening"
+      ],
+      "triggers": [
+        "ssh",
+        "hardening",
+        "harden",
+        "access",
+        "configuring",
+        "reviewing",
+        "server",
+        "security"
+      ],
+      "path": "skills/ssh-hardening/SKILL.md"
+    },
+    {
+      "id": "ssr-and-hydration",
+      "name": "ssr-and-hydration",
+      "description": "Implement server-side rendering and hydration. Use when building or debugging SSR apps.",
+      "category": "general",
+      "tags": [
+        "ssr",
+        "hydration"
+      ],
+      "triggers": [
+        "ssr",
+        "hydration",
+        "server",
+        "side",
+        "rendering",
+        "building",
+        "debugging",
+        "apps"
+      ],
+      "path": "skills/ssr-and-hydration/SKILL.md"
     },
     {
       "id": "startup-analyst",
@@ -6709,6 +10071,29 @@
       "path": "skills/startup-metrics-framework/SKILL.md"
     },
     {
+      "id": "state-management",
+      "name": "state-management",
+      "description": "Choose and apply frontend state management. Use when deciding how to manage client vs server state.",
+      "category": "development",
+      "tags": [
+        "state",
+        "management"
+      ],
+      "triggers": [
+        "state",
+        "management",
+        "choose",
+        "apply",
+        "frontend",
+        "deciding",
+        "how",
+        "client",
+        "vs",
+        "server"
+      ],
+      "path": "skills/state-management/SKILL.md"
+    },
+    {
       "id": "stride-analysis-patterns",
       "name": "stride-analysis-patterns",
       "description": "Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation.",
@@ -6756,6 +10141,90 @@
         "webhooks"
       ],
       "path": "skills/stripe-integration/SKILL.md"
+    },
+    {
+      "id": "supply-chain-security",
+      "name": "supply-chain-security",
+      "description": "Secure the software supply chain. Use when assessing build, artifact, and release integrity.",
+      "category": "security",
+      "tags": [
+        "supply",
+        "chain",
+        "security"
+      ],
+      "triggers": [
+        "supply",
+        "chain",
+        "security",
+        "secure",
+        "software",
+        "assessing",
+        "artifact",
+        "release",
+        "integrity"
+      ],
+      "path": "skills/supply-chain-security/SKILL.md"
+    },
+    {
+      "id": "system-design",
+      "name": "system-design",
+      "description": "Design end-to-end systems for real projects and interviews. Use when asked to architect a system from a prompt.",
+      "category": "general",
+      "tags": [
+        "system"
+      ],
+      "triggers": [
+        "system",
+        "real",
+        "interviews",
+        "asked",
+        "architect",
+        "prompt"
+      ],
+      "path": "skills/system-design/SKILL.md"
+    },
+    {
+      "id": "systematic-debugger",
+      "name": "systematic-debugger",
+      "description": "Debug issues systematically. Use when investigating a bug from symptoms to root cause.",
+      "category": "engineering",
+      "tags": [
+        "systematic",
+        "debugger"
+      ],
+      "triggers": [
+        "systematic",
+        "debugger",
+        "debug",
+        "issues",
+        "systematically",
+        "investigating",
+        "bug",
+        "symptoms",
+        "root",
+        "cause"
+      ],
+      "path": "skills/systematic-debugger/SKILL.md"
+    },
+    {
+      "id": "systemd-services",
+      "name": "systemd-services",
+      "description": "Manage services with systemd. Use when writing or debugging unit files and service lifecycle.",
+      "category": "infrastructure",
+      "tags": [
+        "systemd",
+        "services"
+      ],
+      "triggers": [
+        "systemd",
+        "services",
+        "writing",
+        "debugging",
+        "unit",
+        "files",
+        "lifecycle"
+      ],
+      "path": "skills/systemd-services/SKILL.md"
     },
     {
       "id": "systems-programming-rust-project",
@@ -7162,6 +10631,47 @@
       "path": "skills/threat-modeling-expert/SKILL.md"
     },
     {
+      "id": "tls-engineering",
+      "name": "tls-engineering",
+      "description": "Configure TLS correctly. Use when setting up certificates, HTTPS, and cipher policies.",
+      "category": "engineering",
+      "tags": [
+        "tls",
+        "engineering"
+      ],
+      "triggers": [
+        "tls",
+        "engineering",
+        "configure",
+        "correctly",
+        "setting",
+        "up",
+        "certificates",
+        "https",
+        "cipher",
+        "policies"
+      ],
+      "path": "skills/tls-engineering/SKILL.md"
+    },
+    {
+      "id": "tracing-engineering",
+      "name": "tracing-engineering",
+      "description": "Implement distributed tracing. Use when understanding latency across services.",
+      "category": "infrastructure",
+      "tags": [
+        "tracing",
+        "engineering"
+      ],
+      "triggers": [
+        "tracing",
+        "engineering",
+        "distributed",
+        "understanding",
+        "latency"
+      ],
+      "path": "skills/tracing-engineering/SKILL.md"
+    },
+    {
       "id": "track-management",
       "name": "track-management",
       "description": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations.",
@@ -7184,6 +10694,29 @@
         "bugs"
       ],
       "path": "skills/track-management/SKILL.md"
+    },
+    {
+      "id": "troubleshooting-docs",
+      "name": "troubleshooting-docs",
+      "description": "Write troubleshooting documents that resolve issues. Use when documenting known problems and fixes.",
+      "category": "general",
+      "tags": [
+        "troubleshooting",
+        "docs"
+      ],
+      "triggers": [
+        "troubleshooting",
+        "docs",
+        "write",
+        "documents",
+        "resolve",
+        "issues",
+        "documenting",
+        "known",
+        "problems",
+        "fixes"
+      ],
+      "path": "skills/troubleshooting-docs/SKILL.md"
     },
     {
       "id": "turborepo-caching",
@@ -7214,7 +10747,7 @@
       "id": "tutorial-engineer",
       "name": "tutorial-engineer",
       "description": "Creates step-by-step tutorials and educational content from code. Transforms complex concepts into progressive learning experiences with hands-on examples. Use PROACTIVELY for onboarding guides, feature tutorials, or concept explanations.",
-      "category": "general",
+      "category": "engineering",
       "tags": [
         "tutorial"
       ],
@@ -7259,6 +10792,28 @@
         "safe"
       ],
       "path": "skills/typescript-advanced-types/SKILL.md"
+    },
+    {
+      "id": "typescript-engineering",
+      "name": "typescript-engineering",
+      "description": "Use TypeScript effectively for safety and maintainability. Use when writing or reviewing typed code.",
+      "category": "development",
+      "tags": [
+        "typescript",
+        "engineering"
+      ],
+      "triggers": [
+        "typescript",
+        "engineering",
+        "effectively",
+        "safety",
+        "maintainability",
+        "writing",
+        "reviewing",
+        "typed",
+        "code"
+      ],
+      "path": "skills/typescript-engineering/SKILL.md"
     },
     {
       "id": "typescript-pro",
@@ -7337,6 +10892,27 @@
       "path": "skills/ui-visual-validator/SKILL.md"
     },
     {
+      "id": "unit-testing",
+      "name": "unit-testing",
+      "description": "Write effective unit tests. Use when testing functions and components in isolation.",
+      "category": "testing",
+      "tags": [
+        "unit",
+        "testing"
+      ],
+      "triggers": [
+        "unit",
+        "testing",
+        "write",
+        "effective",
+        "tests",
+        "functions",
+        "components",
+        "isolation"
+      ],
+      "path": "skills/unit-testing/SKILL.md"
+    },
+    {
       "id": "unit-testing-test-generate",
       "name": "unit-testing-test-generate",
       "description": "Generate comprehensive, maintainable unit tests across languages with strong coverage and edge case focus.",
@@ -7408,6 +10984,30 @@
         "building"
       ],
       "path": "skills/unity-ecs-patterns/SKILL.md"
+    },
+    {
+      "id": "user-story-analysis",
+      "name": "user-story-analysis",
+      "description": "Analyze and decompose user stories into implementable tasks. Use when splitting stories for development.",
+      "category": "general",
+      "tags": [
+        "user",
+        "story",
+        "analysis"
+      ],
+      "triggers": [
+        "user",
+        "story",
+        "analysis",
+        "analyze",
+        "decompose",
+        "stories",
+        "implementable",
+        "tasks",
+        "splitting",
+        "development"
+      ],
+      "path": "skills/user-story-analysis/SKILL.md"
     },
     {
       "id": "uv-package-manager",
@@ -7487,6 +11087,46 @@
       "path": "skills/vector-index-tuning/SKILL.md"
     },
     {
+      "id": "vitest-engineering",
+      "name": "vitest-engineering",
+      "description": "Write and configure Vitest tests. Use when working on a Vite/Vitest project.",
+      "category": "engineering",
+      "tags": [
+        "vitest",
+        "engineering"
+      ],
+      "triggers": [
+        "vitest",
+        "engineering",
+        "write",
+        "configure",
+        "tests",
+        "working",
+        "vite"
+      ],
+      "path": "skills/vitest-engineering/SKILL.md"
+    },
+    {
+      "id": "vue-development",
+      "name": "vue-development",
+      "description": "Build Vue 3 applications with the Composition API. Use when developing or reviewing Vue projects.",
+      "category": "development",
+      "tags": [
+        "vue",
+        "development"
+      ],
+      "triggers": [
+        "vue",
+        "development",
+        "applications",
+        "composition",
+        "api",
+        "developing",
+        "reviewing"
+      ],
+      "path": "skills/vue-development/SKILL.md"
+    },
+    {
       "id": "wcag-audit-patterns",
       "name": "wcag-audit-patterns",
       "description": "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns.",
@@ -7534,6 +11174,51 @@
         "mainnet"
       ],
       "path": "skills/web3-testing/SKILL.md"
+    },
+    {
+      "id": "webhook-engineering",
+      "name": "webhook-engineering",
+      "description": "Receive and send webhooks reliably. Use when integrating third-party webhooks or delivering your own.",
+      "category": "engineering",
+      "tags": [
+        "webhook",
+        "engineering"
+      ],
+      "triggers": [
+        "webhook",
+        "engineering",
+        "receive",
+        "send",
+        "webhooks",
+        "reliably",
+        "integrating",
+        "third",
+        "party",
+        "delivering",
+        "own"
+      ],
+      "path": "skills/webhook-engineering/SKILL.md"
+    },
+    {
+      "id": "websocket-engineering",
+      "name": "websocket-engineering",
+      "description": "Engineer WebSocket features. Use when building realtime bidirectional channels.",
+      "category": "engineering",
+      "tags": [
+        "websocket",
+        "engineering"
+      ],
+      "triggers": [
+        "websocket",
+        "engineering",
+        "engineer",
+        "features",
+        "building",
+        "realtime",
+        "bidirectional",
+        "channels"
+      ],
+      "path": "skills/websocket-engineering/SKILL.md"
     },
     {
       "id": "workflow-orchestration-patterns",

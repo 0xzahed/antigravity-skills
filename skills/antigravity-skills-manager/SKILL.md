@@ -1,13 +1,13 @@
 ---
 name: antigravity-skills-manager
-description: Global skills manager for Google Antigravity. Explore, search, install, and manage 300+ agent skills from the 0xzahed/antigravity-skills catalog using pure stdlib CLI tools.
+description: Global skills manager for Google Antigravity. Explore, search, install, and manage 475+ agent skills from the 0xzahed/antigravity-skills catalog using pure stdlib CLI tools.
 metadata:
   model: inherit
 ---
 
 # 📦 Antigravity Skills Manager (`0xzahed/antigravity-skills`)
 
-The `antigravity-skills-manager` skill empowers Google Antigravity agents and users to discover, search, install, and manage over **300+ agent skills** from the open-source repository [`0xzahed/antigravity-skills`](https://github.com/0xzahed/antigravity-skills).
+The `antigravity-skills-manager` skill empowers Google Antigravity agents and users to discover, search, install, and manage over **475 agent skills** from the open-source repository [`0xzahed/antigravity-skills`](https://github.com/0xzahed/antigravity-skills).
 
 ---
 
